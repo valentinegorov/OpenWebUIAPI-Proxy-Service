@@ -6,6 +6,9 @@ from logging.handlers import RotatingFileHandler
 import sys
 from datetime import datetime
 
+# Project version
+__version__ = "1.0.0"
+
 # Load environment variables from .env file if it exists
 try:
     from dotenv import load_dotenv
