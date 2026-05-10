@@ -37,6 +37,6 @@ def client(app: Flask) -> Flask.test_client_class:
 
 
 @pytest.fixture
-def runner(app: Flask) -> Flask.cli_runner_class:
+def runner(app: Flask) -> Flask.test_cli_runner_class:
     """Create CLI runner."""
     return app.test_cli_runner()
