@@ -128,10 +128,33 @@ CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:5001", "main:app"]
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
 | `OPENWEBUI_BASE_URL` | Yes* | `http://localhost:3000` | OpenWebUI backend URL |
+| `OPENWEBUI_VERIFY_SSL` | No | `true` | Verify SSL certificates (set to `false` for self-signed certs) |
 | `FLASK_DEBUG` | No | `false` | Enable debug mode (⚠️ not for production) |
 | `FLASK_ENV` | No | `production` | Flask environment mode |
 
 *Required in production; default is suitable only for local development.
+
+### SSL Certificate Verification
+
+The `OPENWEBUI_VERIFY_SSL` environment variable controls whether the proxy server verifies SSL certificates when connecting to the OpenWebUI backend.
+
+- **Default:** `true` (SSL verification enabled)
+- **To trust self-signed certificates:** Set to `false`
+
+```bash
+# Development with self-signed certificate
+export OPENWEBUI_VERIFY_SSL=false
+
+# Production with valid SSL certificate (default)
+export OPENWEBUI_VERIFY_SSL=true
+```
+
+⚠️ **Security Warning:** Disabling SSL verification (`OPENWEBUI_VERIFY_SSL=false`) should only be used in:
+- Development environments
+- Trusted internal networks
+- Testing scenarios
+
+In production environments, always use properly signed SSL certificates from a trusted Certificate Authority (CA).
 
 ---
 
