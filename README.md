@@ -76,11 +76,22 @@ The proxy server is configured via environment variables:
 | Variable | Description | Default | Required |
 |----------|-------------|---------|----------|
 | `OPENWEBUI_BASE_URL` | URL of your OpenWebUI backend | `http://localhost:3000` | No* |
+| `OPENWEBUI_VERIFY_SSL` | Verify SSL certificates (`true`/`false`) | `true` | No |
 | `FLASK_DEBUG` | Enable debug mode (`true`/`false`) | `false` | No |
 
 *Required if your OpenWebUI instance is not on localhost:3000
 
 **Note:** The configuration step above (creating `.env` file) is the recommended way to set these variables. Alternatively, you can export them directly in your shell before running the server.
+
+### SSL Certificate Verification
+
+By default, the proxy server verifies SSL certificates when connecting to the OpenWebUI backend. If your OpenWebUI instance uses a self-signed certificate, you can disable SSL verification by setting:
+
+```bash
+OPENWEBUI_VERIFY_SSL=false
+```
+
+⚠️ **Warning:** Disabling SSL verification should only be used in development environments or when you trust the network. In production, use properly signed SSL certificates.
 
 ## Running the Server
 

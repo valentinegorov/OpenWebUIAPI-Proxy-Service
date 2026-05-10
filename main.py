@@ -17,6 +17,9 @@ app = Flask(__name__)
 
 # Configuration for OpenWebUI - loaded from environment variable
 OPENWEBUI_BASE_URL = os.environ.get("OPENWEBUI_BASE_URL", "http://localhost:3000")
+# Option to disable SSL verification for self-signed certificates
+# Set OPENWEBUI_VERIFY_SSL=false to trust self-signed certificates
+OPENWEBUI_VERIFY_SSL = os.environ.get("OPENWEBUI_VERIFY_SSL", "true").lower() not in ("false", "0", "no")
 
 # Configure structured logging
 def setup_logging():
@@ -64,7 +67,7 @@ def get_models():
     }
     
     try:
-        response = requests.get(f"{OPENWEBUI_BASE_URL}/api/models", headers=headers, timeout=30)
+        response = requests.get(f"{OPENWEBUI_BASE_URL}/api/models", headers=headers, timeout=30, verify=OPENWEBUI_VERIFY_SSL)
         
         logger.info(
             f"Response from OpenWebUI | status={response.status_code} | latency_ms={response.elapsed.total_seconds()*1000:.2f}"
@@ -112,7 +115,7 @@ def chat_completions():
     }
     
     try:
-        response = requests.post(f"{OPENWEBUI_BASE_URL}/api/chat/completions", headers=headers, json=openwebui_payload, timeout=120)  # Increased to 120 seconds
+        response = requests.post(f"{OPENWEBUI_BASE_URL}/api/chat/completions", headers=headers, json=openwebui_payload, timeout=120, verify=OPENWEBUI_VERIFY_SSL)  # Increased to 120 seconds
         
         logger.info(
             f"Response from OpenWebUI | status={response.status_code} | latency_ms={response.elapsed.total_seconds()*1000:.2f}"
@@ -145,7 +148,7 @@ def readiness_check():
     """Readiness check to verify backend connectivity."""
     logger.info("Readiness check requested")
     try:
-        response = requests.get(f"{OPENWEBUI_BASE_URL}/api/models", timeout=5)
+        response = requests.get(f"{OPENWEBUI_BASE_URL}/api/models", timeout=5, verify=OPENWEBUI_VERIFY_SSL)
         if response.status_code == 200:
             logger.info("Backend OpenWebUI is reachable")
             return jsonify({
