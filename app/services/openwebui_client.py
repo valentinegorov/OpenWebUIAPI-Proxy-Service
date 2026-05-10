@@ -7,11 +7,15 @@ import requests
 
 
 class OpenWebUIClient:
-    """Client for interacting with the OpenWebUI API."""
+    """Client for interacting with the OpenWebUI API.
+
+    Uses a requests.Session for connection pooling and reuse across calls.
+    """
 
     def __init__(
         self,
         base_url: str,
+        *,
         verify_ssl: bool = True,
         request_timeout: int = 30,
         chat_completion_timeout: int = 120,
@@ -34,6 +38,25 @@ class OpenWebUIClient:
         self.readiness_timeout = readiness_timeout
         self.logger = logging.getLogger(__name__)
 
+        # Connection pooling via Session for TCP connection reuse
+        self.session = requests.Session()
+        self.session.verify = verify_ssl
+        # Optionally configure pool size for high-throughput scenarios:
+        # adapter = requests.adapters.HTTPAdapter(pool_connections=10, pool_maxsize=20)
+        # self.session.mount("https://", adapter)
+
+    def close(self) -> None:
+        """Close the underlying requests session."""
+        if hasattr(self, "session"):
+            self.session.close()
+
+    def __del__(self) -> None:
+        """Clean up session on garbage collection."""
+        try:
+            self.close()
+        except Exception:
+            pass
+
     def get_models(self, auth_header: Optional[str] = None) -> Dict[str, Any]:
         """
         Fetch available models from OpenWebUI.
@@ -47,20 +70,20 @@ class OpenWebUIClient:
         Raises:
             requests.exceptions.RequestException: If the request fails.
         """
-        headers = {
-            "Authorization": auth_header,
-            "Content-Type": "application/json",
-        }
+        headers = {"Content-Type": "application/json"}
+        if auth_header is not None:
+            headers["Authorization"] = auth_header
 
         self.logger.info("Fetching models from OpenWebUI")
-        response = requests.get(
+        response = self.session.get(
             f"{self.base_url}/api/models",
             headers=headers,
             timeout=self.request_timeout,
-            verify=self.verify_ssl,
         )
         self.logger.info(
-            f"Models response | status={response.status_code} | latency_ms={response.elapsed.total_seconds() * 1000:.2f}"
+            "Models response | status=%s | latency_ms=%.2f",
+            response.status_code,
+            response.elapsed.total_seconds() * 1000,
         )
 
         response.raise_for_status()
@@ -83,23 +106,27 @@ class OpenWebUIClient:
         Raises:
             requests.exceptions.RequestException: If the request fails.
         """
-        headers = {
-            "Authorization": auth_header,
-            "Content-Type": "application/json",
-        }
+        headers = {"Content-Type": "application/json"}
+        if auth_header is not None:
+            headers["Authorization"] = auth_header
 
         payload = {"model": model, "messages": messages}
 
-        self.logger.info(f"Sending chat completion | model={model} | message_count={len(messages)}")
-        response = requests.post(
+        self.logger.info(
+            "Sending chat completion | model=%s | message_count=%s",
+            model,
+            len(messages),
+        )
+        response = self.session.post(
             f"{self.base_url}/api/chat/completions",
             headers=headers,
             json=payload,
             timeout=self.chat_completion_timeout,
-            verify=self.verify_ssl,
         )
         self.logger.info(
-            f"Chat completion response | status={response.status_code} | latency_ms={response.elapsed.total_seconds() * 1000:.2f}"
+            "Chat completion response | status=%s | latency_ms=%.2f",
+            response.status_code,
+            response.elapsed.total_seconds() * 1000,
         )
 
         response.raise_for_status()
@@ -113,12 +140,11 @@ class OpenWebUIClient:
             True if backend is reachable, False otherwise.
         """
         try:
-            response = requests.get(
+            response = self.session.get(
                 f"{self.base_url}/api/models",
                 timeout=self.readiness_timeout,
-                verify=self.verify_ssl,
             )
             return response.status_code == 200
         except requests.exceptions.RequestException as e:
-            self.logger.error(f"Backend unreachable | error={str(e)}")
+            self.logger.error("Backend unreachable | error=%s", str(e))
             return False

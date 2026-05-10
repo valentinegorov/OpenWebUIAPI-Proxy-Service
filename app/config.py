@@ -32,3 +32,8 @@ class Config:
     REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", "30"))
     CHAT_COMPLETION_TIMEOUT = int(os.environ.get("CHAT_COMPLETION_TIMEOUT", "120"))
     READINESS_TIMEOUT = int(os.environ.get("READINESS_TIMEOUT", "5"))
+
+    # Rate limiting configuration
+    RATE_LIMIT_GLOBAL = os.environ.get("RATE_LIMIT_GLOBAL", "100 per minute")
+    RATE_LIMIT_MODELS = os.environ.get("RATE_LIMIT_MODELS", "30 per minute")
+    RATE_LIMIT_CHAT = os.environ.get("RATE_LIMIT_CHAT", "30 per minute")

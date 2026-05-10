@@ -1,7 +1,10 @@
 """Tests for the health and readiness endpoints."""
 
+from unittest.mock import Mock, patch
+
 import pytest
 from flask import Flask
+from requests.exceptions import RequestException, Timeout
 
 
 class TestHealthEndpoint:
@@ -10,7 +13,6 @@ class TestHealthEndpoint:
     def test_health_check(self, client: Flask.test_client_class) -> None:
         """Test that health check returns healthy status."""
         response = client.get("/health")
-        
         assert response.status_code == 200
         data = response.get_json()
         assert data["status"] == "healthy"
@@ -27,15 +29,47 @@ class TestHealthEndpoint:
 class TestReadinessEndpoint:
     """Test cases for GET /ready endpoint."""
 
-    def test_readiness_check(self, client: Flask.test_client_class) -> None:
-        """Test that readiness check returns valid response structure."""
+    @pytest.fixture(autouse=True)
+    def mock_client(self):
+        """Mock OpenWebUIClient for deterministic readiness tests."""
+        with patch("app.routes.health.OpenWebUIClient") as mock_cls:
+            self.mock_client_instance = Mock()
+            mock_cls.return_value = self.mock_client_instance
+            yield mock_cls
+
+    def test_readiness_success(self, client: Flask.test_client_class) -> None:
+        """Test that readiness returns 200 when backend is reachable."""
+        self.mock_client_instance.check_readiness.return_value = True
         response = client.get("/ready")
-        
-        # Should return either 200 (ready) or 503 (not ready)
-        assert response.status_code in [200, 503]
+        assert response.status_code == 200
         data = response.get_json()
-        assert "status" in data
-        assert "timestamp" in data
+        assert data["status"] == "ready"
+        assert data["backend"] == "connected"
+
+    def test_readiness_backend_unhealthy(self, client: Flask.test_client_class) -> None:
+        """Test that readiness returns 503 when backend returns non-200."""
+        self.mock_client_instance.check_readiness.return_value = False
+        response = client.get("/ready")
+        assert response.status_code == 503
+        data = response.get_json()
+        assert data["status"] == "not_ready"
+
+    def test_readiness_backend_timeout(self, client: Flask.test_client_class) -> None:
+        """Test that readiness returns 503 when backend times out."""
+        self.mock_client_instance.check_readiness.side_effect = Timeout("Timed out")
+        response = client.get("/ready")
+        assert response.status_code == 503
+        data = response.get_json()
+        assert data["status"] == "not_ready"
+        assert data["backend"] == "unreachable"
+
+    def test_readiness_backend_error(self, client: Flask.test_client_class) -> None:
+        """Test that readiness returns 503 on backend error."""
+        self.mock_client_instance.check_readiness.side_effect = RequestException("Error")
+        response = client.get("/ready")
+        assert response.status_code == 503
+        data = response.get_json()
+        assert data["status"] == "not_ready"
 
     def test_readiness_method_not_allowed(
         self, client: Flask.test_client_class

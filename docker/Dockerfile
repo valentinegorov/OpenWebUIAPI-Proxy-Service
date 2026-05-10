@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY app/ ./app/
 COPY logs/ ./logs/
+COPY docker/wsgi.py .
 
 # Create non-root user for security
 RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
@@ -23,4 +24,4 @@ ENV FLASK_PORT=5001
 EXPOSE 5001
 
 # Run with Gunicorn for production
-CMD ["gunicorn", "-w", "4", "-k", "gevent", "--timeout", "300", "--bind", "0.0.0.0:5001", "app.main:app"]
+CMD ["gunicorn", "-w", "4", "-k", "gevent", "--timeout", "300", "--bind", "0.0.0.0:5001", "wsgi:app"]

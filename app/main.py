@@ -6,6 +6,7 @@ from typing import Optional
 from flask import Flask
 
 from app.config import Config
+from app.extensions import limiter
 from app.routes import models_bp, chat_bp, health_bp
 from app.utils.logging_config import setup_logging
 
@@ -40,14 +41,21 @@ def create_app(config: Optional[Config] = None) -> Flask:
     app.config["REQUEST_TIMEOUT"] = config.REQUEST_TIMEOUT
     app.config["CHAT_COMPLETION_TIMEOUT"] = config.CHAT_COMPLETION_TIMEOUT
     app.config["READINESS_TIMEOUT"] = config.READINESS_TIMEOUT
+    app.config["RATE_LIMIT_GLOBAL"] = config.RATE_LIMIT_GLOBAL
+    app.config["RATE_LIMIT_MODELS"] = config.RATE_LIMIT_MODELS
+    app.config["RATE_LIMIT_CHAT"] = config.RATE_LIMIT_CHAT
+
+    # Set up rate limiting
+    app.config["RATELIMIT_DEFAULT"] = config.RATE_LIMIT_GLOBAL
+    limiter.init_app(app)
 
     # Register blueprints
     app.register_blueprint(models_bp)
     app.register_blueprint(chat_bp)
     app.register_blueprint(health_bp)
 
-    logger.info(f"Application created | debug={config.FLASK_DEBUG}")
-    logger.info(f"OpenWebUI backend URL: {config.OPENWEBUI_BASE_URL}")
+    logger.info("Application created | debug=%s", config.FLASK_DEBUG)
+    logger.info("OpenWebUI backend URL: %s", config.OPENWEBUI_BASE_URL)
 
     return app
 
