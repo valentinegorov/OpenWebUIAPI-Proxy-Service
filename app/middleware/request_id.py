@@ -1,9 +1,10 @@
 """Request ID middleware for tracking requests across logs."""
 
+import json
 import logging
 from typing import Any
 
-from flask import Flask, g, request
+from flask import Flask, current_app, g, request
 
 from app.utils.logging_config import generate_request_id, set_request_id
 
@@ -40,6 +41,12 @@ def init_request_id_middleware(app: Flask) -> None:
             request.method,
             request.path,
         )
+        
+        # Log request body if enabled
+        if current_app.config.get("LOG_REQUEST_BODY", False):
+            body = request.get_data(as_text=True)
+            if body:
+                logger.info("Request body | id=%s | body=%s", request_id, body)
     
     @app.after_request
     def after_request_teardown(response: Any) -> Any:
@@ -51,6 +58,12 @@ def init_request_id_middleware(app: Flask) -> None:
             request_id,
             response.status_code,
         )
+        
+        # Log response body if enabled
+        if current_app.config.get("LOG_RESPONSE_BODY", False):
+            body = response.get_data(as_text=True)
+            if body:
+                logger.info("Response body | id=%s | status=%s | body=%s", request_id, response.status_code, body)
         
         # Add request ID to response headers for client-side tracking
         response.headers["X-Request-ID"] = request_id

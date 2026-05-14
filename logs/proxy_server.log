@@ -1,0 +1,1738 @@
+2026-05-14 17:35:30 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:35:30 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:35:30 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:35:30 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:35:30 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:35:30 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:35:30 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:35:31 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:35:31 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:35:31 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:35:31 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:35:31 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:35:31 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:35:31 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:35:31 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:35:31 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:35:31 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:35:31 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:35:31 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:35:31 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:35:31 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:35:31 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:35:31 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:35:31 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:35:31 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:35:31 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:35:31 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:35:31 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:35:31 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:35:31 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:35:31 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:35:31 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:35:31 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:13 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:13 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:13 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:13 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:13 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:13 | WARNING | app.utils.error_handler | [] | Timeout calling backend | request_id=test-123
+2026-05-14 17:36:13 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:13 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:13 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:13 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:13 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:13 | WARNING | app.utils.error_handler | [] | Backend unreachable | endpoint=backend | request_id=test-123
+2026-05-14 17:36:13 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:13 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:13 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:13 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:13 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:13 | WARNING | app.utils.error_handler | [] | Backend unreachable | endpoint=backend | request_id=test-123
+2026-05-14 17:36:13 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:13 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:13 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:13 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:13 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:13 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=backend | request_id=test-123 | error=Generic error
+2026-05-14 17:36:13 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:13 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:13 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:13 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:13 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:13 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=backend | request_id=test-123 | error=Rate limited
+2026-05-14 17:36:13 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:13 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:13 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:13 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:13 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:13 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:13 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=test | request_id=test-123 | error=Error
+2026-05-14 17:36:29 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:29 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:29 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:29 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:29 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:29 | WARNING | app.utils.error_handler | [] | Timeout calling backend | request_id=test-123
+2026-05-14 17:36:29 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:29 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:29 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:29 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:29 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:29 | WARNING | app.utils.error_handler | [] | Backend unreachable | endpoint=backend | request_id=test-123
+2026-05-14 17:36:29 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:29 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:29 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:29 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:29 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:29 | ERROR | app.utils.error_handler | [] | SSL verification failed | endpoint=backend | request_id=test-123
+2026-05-14 17:36:29 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:29 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:29 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:29 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:29 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:29 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=backend | request_id=test-123 | error=Generic error
+2026-05-14 17:36:29 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:29 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:29 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:29 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:29 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:29 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=backend | request_id=test-123 | error=Rate limited
+2026-05-14 17:36:29 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:29 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:29 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:29 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:29 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:29 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:29 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=test | request_id=test-123 | error=Error
+2026-05-14 17:36:47 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [ca0a2513] | Request started | id=ca0a2513 | method=GET | path=/v1/models
+2026-05-14 17:36:47 | INFO | app.routes.models | [ca0a2513] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.models | [ca0a2513] | Successfully retrieved models
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [ca0a2513] | Request completed | id=ca0a2513 | status=200
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [50fa8dce] | Request started | id=50fa8dce | method=GET | path=/v1/models
+2026-05-14 17:36:47 | INFO | app.routes.models | [50fa8dce] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.models | [50fa8dce] | Successfully retrieved models
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [50fa8dce] | Request completed | id=50fa8dce | status=200
+2026-05-14 17:36:47 | INFO | app | [50fa8dce] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [50fa8dce] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [50fa8dce] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [50fa8dce] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [50fa8dce] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [50fa8dce] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [50fa8dce] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [e4f5bd33] | Request started | id=e4f5bd33 | method=GET | path=/v1/models
+2026-05-14 17:36:47 | INFO | app.routes.models | [e4f5bd33] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.models | [e4f5bd33] | Successfully retrieved models
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [e4f5bd33] | Request completed | id=e4f5bd33 | status=200
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [e3850135] | Request started | id=e3850135 | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [e3850135] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [e3850135] | Request payload | model=test-model | message_count=1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [e3850135] | Successfully retrieved chat completion
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [e3850135] | Request completed | id=e3850135 | status=200
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [841bce70] | Request started | id=841bce70 | method=GET | path=/ready
+2026-05-14 17:36:47 | INFO | app.routes.health | [841bce70] | Readiness check requested
+2026-05-14 17:36:47 | INFO | app.routes.health | [841bce70] | Backend OpenWebUI is reachable
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [841bce70] | Request completed | id=841bce70 | status=200
+2026-05-14 17:36:47 | INFO | app | [841bce70] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [841bce70] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [841bce70] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [841bce70] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [841bce70] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [841bce70] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [841bce70] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [b210fe3d] | Request started | id=b210fe3d | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [b210fe3d] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [b210fe3d] | Request payload | model=test-model | message_count=1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [b210fe3d] | Successfully retrieved chat completion
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [b210fe3d] | Request completed | id=b210fe3d | status=200
+2026-05-14 17:36:47 | INFO | app | [b210fe3d] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [b210fe3d] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [b210fe3d] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [b210fe3d] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [b210fe3d] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [b210fe3d] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [b210fe3d] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [bb98cbaf] | Request started | id=bb98cbaf | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [bb98cbaf] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [bb98cbaf] | Request payload | model=unknown | message_count=1
+2026-05-14 17:36:47 | WARNING | app.routes.chat | [bb98cbaf] | Invalid request payload
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [bb98cbaf] | Request completed | id=bb98cbaf | status=400
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [ef7f1c91] | Request started | id=ef7f1c91 | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [ef7f1c91] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [ef7f1c91] | Request payload | model=test-model | message_count=0
+2026-05-14 17:36:47 | WARNING | app.routes.chat | [ef7f1c91] | Invalid request payload
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [ef7f1c91] | Request completed | id=ef7f1c91 | status=400
+2026-05-14 17:36:47 | INFO | app | [ef7f1c91] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [ef7f1c91] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [ef7f1c91] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [ef7f1c91] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [ef7f1c91] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [ef7f1c91] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [ef7f1c91] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [e6c93f6a] | Request started | id=e6c93f6a | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [e6c93f6a] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [e6c93f6a] | Request payload | model=test-model | message_count=1
+2026-05-14 17:36:47 | WARNING | app.utils.error_handler | [e6c93f6a] | Timeout calling OpenWebUI chat | request_id=e6c93f6a
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [e6c93f6a] | Request completed | id=e6c93f6a | status=504
+2026-05-14 17:36:47 | INFO | app | [e6c93f6a] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [e6c93f6a] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [e6c93f6a] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [e6c93f6a] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [e6c93f6a] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [e6c93f6a] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [e6c93f6a] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [4ccde9a2] | Request started | id=4ccde9a2 | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [4ccde9a2] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [4ccde9a2] | Request payload | model=test-model | message_count=1
+2026-05-14 17:36:47 | ERROR | app.utils.error_handler | [4ccde9a2] | Request failed | endpoint=OpenWebUI chat | request_id=4ccde9a2 | error=Backend error
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [4ccde9a2] | Request completed | id=4ccde9a2 | status=502
+2026-05-14 17:36:47 | INFO | app | [4ccde9a2] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [4ccde9a2] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [4ccde9a2] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [4ccde9a2] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [4ccde9a2] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [4ccde9a2] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [4ccde9a2] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [cab00289] | Request started | id=cab00289 | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [cab00289] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [cab00289] | Request payload | model=test-model | message_count=1
+2026-05-14 17:36:47 | ERROR | app.middleware.request_id | [cab00289] | Request failed with exception | id=cab00289 | error=Undefined variable
+2026-05-14 17:36:47 | INFO | app | [cab00289] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [cab00289] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [cab00289] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [cab00289] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [cab00289] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [cab00289] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [cab00289] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [90a04583] | Request started | id=90a04583 | method=GET | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [90a04583] | Request completed | id=90a04583 | status=405
+2026-05-14 17:36:47 | INFO | app | [90a04583] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [90a04583] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [90a04583] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [90a04583] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [90a04583] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [90a04583] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [90a04583] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [125a80e6] | Request started | id=125a80e6 | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [125a80e6] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [125a80e6] | Request payload | model=evil<script>alert(1)</script> | message_count=1
+2026-05-14 17:36:47 | WARNING | app.routes.chat | [125a80e6] | Invalid model name | model=evil<script>alert(1)</script>
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [125a80e6] | Request completed | id=125a80e6 | status=400
+2026-05-14 17:36:47 | INFO | app | [125a80e6] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [125a80e6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [125a80e6] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [125a80e6] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [125a80e6] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [125a80e6] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [125a80e6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [4d59ba68] | Request started | id=4d59ba68 | method=POST | path=/v1/chat/completions
+2026-05-14 17:36:47 | INFO | app.routes.chat | [4d59ba68] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [4d59ba68] | Request payload | model=openai/gpt-4:latest@v1.0+special | message_count=1
+2026-05-14 17:36:47 | INFO | app.routes.chat | [4d59ba68] | Successfully retrieved chat completion
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [4d59ba68] | Request completed | id=4d59ba68 | status=200
+2026-05-14 17:36:47 | INFO | app | [4d59ba68] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [4d59ba68] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [4d59ba68] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [4d59ba68] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [4d59ba68] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [4d59ba68] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [4d59ba68] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [d9bb5342] | Request started | id=d9bb5342 | method=GET | path=/health
+2026-05-14 17:36:47 | INFO | app.routes.health | [d9bb5342] | Health check requested
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [d9bb5342] | Request completed | id=d9bb5342 | status=200
+2026-05-14 17:36:47 | INFO | app | [d9bb5342] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [d9bb5342] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [d9bb5342] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [d9bb5342] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [d9bb5342] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [d9bb5342] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [d9bb5342] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [84fd30d9] | Request started | id=84fd30d9 | method=POST | path=/health
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [84fd30d9] | Request completed | id=84fd30d9 | status=405
+2026-05-14 17:36:47 | INFO | app | [84fd30d9] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [84fd30d9] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [84fd30d9] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [84fd30d9] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [84fd30d9] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [84fd30d9] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [84fd30d9] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [ada8ea3c] | Request started | id=ada8ea3c | method=GET | path=/ready
+2026-05-14 17:36:47 | INFO | app.routes.health | [ada8ea3c] | Readiness check requested
+2026-05-14 17:36:47 | INFO | app.routes.health | [ada8ea3c] | Backend OpenWebUI is reachable
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [ada8ea3c] | Request completed | id=ada8ea3c | status=200
+2026-05-14 17:36:47 | INFO | app | [ada8ea3c] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [ada8ea3c] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [ada8ea3c] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [ada8ea3c] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [ada8ea3c] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [ada8ea3c] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [ada8ea3c] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [bac384de] | Request started | id=bac384de | method=GET | path=/ready
+2026-05-14 17:36:47 | INFO | app.routes.health | [bac384de] | Readiness check requested
+2026-05-14 17:36:47 | WARNING | app.routes.health | [bac384de] | Backend returned non-200 status
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [bac384de] | Request completed | id=bac384de | status=503
+2026-05-14 17:36:47 | INFO | app | [bac384de] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [bac384de] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [bac384de] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [bac384de] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [bac384de] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [bac384de] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [bac384de] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [96a08baf] | Request started | id=96a08baf | method=GET | path=/ready
+2026-05-14 17:36:47 | INFO | app.routes.health | [96a08baf] | Readiness check requested
+2026-05-14 17:36:47 | ERROR | app.routes.health | [96a08baf] | Backend unreachable | reason=timeout
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [96a08baf] | Request completed | id=96a08baf | status=503
+2026-05-14 17:36:47 | INFO | app | [96a08baf] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [96a08baf] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [96a08baf] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [96a08baf] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [96a08baf] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [96a08baf] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [96a08baf] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [d903d2d8] | Request started | id=d903d2d8 | method=GET | path=/ready
+2026-05-14 17:36:47 | INFO | app.routes.health | [d903d2d8] | Readiness check requested
+2026-05-14 17:36:47 | ERROR | app.routes.health | [d903d2d8] | Backend unreachable | error=Error
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [d903d2d8] | Request completed | id=d903d2d8 | status=503
+2026-05-14 17:36:47 | INFO | app | [d903d2d8] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [d903d2d8] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [d903d2d8] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [d903d2d8] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [d903d2d8] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [d903d2d8] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [d903d2d8] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [c8d69d1e] | Request started | id=c8d69d1e | method=POST | path=/ready
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [c8d69d1e] | Request completed | id=c8d69d1e | status=405
+2026-05-14 17:36:47 | INFO | app | [c8d69d1e] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [c8d69d1e] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [c8d69d1e] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [c8d69d1e] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [c8d69d1e] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [c8d69d1e] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [c8d69d1e] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [a5a5ea2d] | Request started | id=a5a5ea2d | method=GET | path=/v1/models
+2026-05-14 17:36:47 | INFO | app.routes.models | [a5a5ea2d] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:36:47 | INFO | app.routes.models | [a5a5ea2d] | Successfully retrieved models
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [a5a5ea2d] | Request completed | id=a5a5ea2d | status=200
+2026-05-14 17:36:47 | INFO | app | [a5a5ea2d] | Request ID middleware initialized
+2026-05-14 17:36:47 | INFO | app.utils.metrics | [a5a5ea2d] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:47 | INFO | app | [a5a5ea2d] | OpenTelemetry metrics initialized
+2026-05-14 17:36:47 | INFO | app | [a5a5ea2d] | OpenWebUIClient singleton created
+2026-05-14 17:36:47 | INFO | app | [a5a5ea2d] | CORS enabled | origins=*
+2026-05-14 17:36:47 | INFO | app | [a5a5ea2d] | Application created | debug=True
+2026-05-14 17:36:47 | INFO | app | [a5a5ea2d] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [20c6f954] | Request started | id=20c6f954 | method=GET | path=/v1/models
+2026-05-14 17:36:47 | INFO | app.routes.models | [20c6f954] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:36:47 | WARNING | app.utils.error_handler | [20c6f954] | Timeout calling OpenWebUI models | request_id=20c6f954
+2026-05-14 17:36:47 | INFO | app.middleware.request_id | [20c6f954] | Request completed | id=20c6f954 | status=504
+2026-05-14 17:36:48 | INFO | app | [20c6f954] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [20c6f954] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [20c6f954] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [20c6f954] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [20c6f954] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [20c6f954] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [20c6f954] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.middleware.request_id | [7dc4c7e7] | Request started | id=7dc4c7e7 | method=GET | path=/v1/models
+2026-05-14 17:36:48 | INFO | app.routes.models | [7dc4c7e7] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:36:48 | ERROR | app.utils.error_handler | [7dc4c7e7] | Request failed | endpoint=OpenWebUI models | request_id=7dc4c7e7 | error=Backend error
+2026-05-14 17:36:48 | INFO | app.middleware.request_id | [7dc4c7e7] | Request completed | id=7dc4c7e7 | status=502
+2026-05-14 17:36:48 | INFO | app | [7dc4c7e7] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [7dc4c7e7] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [7dc4c7e7] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [7dc4c7e7] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [7dc4c7e7] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [7dc4c7e7] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [7dc4c7e7] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.middleware.request_id | [ae6c1536] | Request started | id=ae6c1536 | method=GET | path=/v1/models
+2026-05-14 17:36:48 | INFO | app.routes.models | [ae6c1536] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:36:48 | ERROR | app.middleware.request_id | [ae6c1536] | Request failed with exception | id=ae6c1536 | error=Undefined variable
+2026-05-14 17:36:48 | INFO | app | [ae6c1536] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [ae6c1536] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [ae6c1536] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [ae6c1536] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [ae6c1536] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [ae6c1536] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [ae6c1536] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.middleware.request_id | [f801d8ac] | Request started | id=f801d8ac | method=POST | path=/v1/models
+2026-05-14 17:36:48 | INFO | app.middleware.request_id | [f801d8ac] | Request completed | id=f801d8ac | status=405
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | WARNING | app.utils.error_handler | [f801d8ac] | Timeout calling backend | request_id=test-123
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | WARNING | app.utils.error_handler | [f801d8ac] | Backend unreachable | endpoint=backend | request_id=test-123
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | ERROR | app.utils.error_handler | [f801d8ac] | SSL verification failed | endpoint=backend | request_id=test-123
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | ERROR | app.utils.error_handler | [f801d8ac] | Request failed | endpoint=backend | request_id=test-123 | error=Generic error
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | ERROR | app.utils.error_handler | [f801d8ac] | Request failed | endpoint=backend | request_id=test-123 | error=Rate limited
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | ERROR | app.utils.error_handler | [f801d8ac] | Request failed | endpoint=test | request_id=test-123 | error=Error
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Fetching models from OpenWebUI
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Models response | status=200 | latency_ms=0.07
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Sending chat completion | model=test-model | message_count=1
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Chat completion response | status=200 | latency_ms=0.06
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Fetching models from OpenWebUI
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Models response | status=200 | latency_ms=0.07
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Sending chat completion | model=test | message_count=1
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Chat completion response | status=200 | latency_ms=0.08
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Fetching models from OpenWebUI
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Models response | status=200 | latency_ms=0.10
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Fetching models from OpenWebUI
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Models response | status=200 | latency_ms=0.06
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Request ID middleware initialized
+2026-05-14 17:36:48 | INFO | app.utils.metrics | [f801d8ac] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenTelemetry metrics initialized
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUIClient singleton created
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | CORS enabled | origins=*
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | Application created | debug=True
+2026-05-14 17:36:48 | INFO | app | [f801d8ac] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Fetching models from OpenWebUI
+2026-05-14 17:36:48 | INFO | app.services.openwebui_client | [f801d8ac] | Models response | status=500 | latency_ms=0.06
+2026-05-14 17:37:05 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [5f71a339] | Request started | id=5f71a339 | method=GET | path=/v1/models
+2026-05-14 17:37:05 | INFO | app.routes.models | [5f71a339] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.models | [5f71a339] | Successfully retrieved models
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [5f71a339] | Request completed | id=5f71a339 | status=200
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [88f325c3] | Request started | id=88f325c3 | method=GET | path=/v1/models
+2026-05-14 17:37:05 | INFO | app.routes.models | [88f325c3] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.models | [88f325c3] | Successfully retrieved models
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [88f325c3] | Request completed | id=88f325c3 | status=200
+2026-05-14 17:37:05 | INFO | app | [88f325c3] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [88f325c3] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [88f325c3] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [88f325c3] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [88f325c3] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [88f325c3] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [88f325c3] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [f0be6fc9] | Request started | id=f0be6fc9 | method=GET | path=/v1/models
+2026-05-14 17:37:05 | INFO | app.routes.models | [f0be6fc9] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.models | [f0be6fc9] | Successfully retrieved models
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [f0be6fc9] | Request completed | id=f0be6fc9 | status=200
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [0b4d870b] | Request started | id=0b4d870b | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.routes.chat | [0b4d870b] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [0b4d870b] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [0b4d870b] | Successfully retrieved chat completion
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [0b4d870b] | Request completed | id=0b4d870b | status=200
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [c292d51c] | Request started | id=c292d51c | method=GET | path=/ready
+2026-05-14 17:37:05 | INFO | app.routes.health | [c292d51c] | Readiness check requested
+2026-05-14 17:37:05 | INFO | app.routes.health | [c292d51c] | Backend OpenWebUI is reachable
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [c292d51c] | Request completed | id=c292d51c | status=200
+2026-05-14 17:37:05 | INFO | app | [c292d51c] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [c292d51c] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [c292d51c] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [c292d51c] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [c292d51c] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [c292d51c] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [c292d51c] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [2bac0b5f] | Request started | id=2bac0b5f | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.routes.chat | [2bac0b5f] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [2bac0b5f] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [2bac0b5f] | Successfully retrieved chat completion
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [2bac0b5f] | Request completed | id=2bac0b5f | status=200
+2026-05-14 17:37:05 | INFO | app | [2bac0b5f] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [2bac0b5f] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [2bac0b5f] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [2bac0b5f] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [2bac0b5f] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [2bac0b5f] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [2bac0b5f] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [c80be793] | Request started | id=c80be793 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.routes.chat | [c80be793] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [c80be793] | Request payload | model=unknown | message_count=1
+2026-05-14 17:37:05 | WARNING | app.routes.chat | [c80be793] | Invalid request payload
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [c80be793] | Request completed | id=c80be793 | status=400
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [0cdca400] | Request started | id=0cdca400 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.routes.chat | [0cdca400] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [0cdca400] | Request payload | model=test-model | message_count=0
+2026-05-14 17:37:05 | WARNING | app.routes.chat | [0cdca400] | Invalid request payload
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [0cdca400] | Request completed | id=0cdca400 | status=400
+2026-05-14 17:37:05 | INFO | app | [0cdca400] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [0cdca400] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [0cdca400] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [0cdca400] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [0cdca400] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [0cdca400] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [0cdca400] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [e7f46a9c] | Request started | id=e7f46a9c | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.routes.chat | [e7f46a9c] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [e7f46a9c] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:05 | WARNING | app.utils.error_handler | [e7f46a9c] | Timeout calling OpenWebUI chat | request_id=e7f46a9c
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [e7f46a9c] | Request completed | id=e7f46a9c | status=504
+2026-05-14 17:37:05 | INFO | app | [e7f46a9c] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [e7f46a9c] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [e7f46a9c] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [e7f46a9c] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [e7f46a9c] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [e7f46a9c] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [e7f46a9c] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [7afe3971] | Request started | id=7afe3971 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.routes.chat | [7afe3971] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [7afe3971] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:05 | ERROR | app.utils.error_handler | [7afe3971] | Request failed | endpoint=OpenWebUI chat | request_id=7afe3971 | error=Backend error
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [7afe3971] | Request completed | id=7afe3971 | status=502
+2026-05-14 17:37:05 | INFO | app | [7afe3971] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [7afe3971] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [7afe3971] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [7afe3971] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [7afe3971] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [7afe3971] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [7afe3971] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [2d9354fc] | Request started | id=2d9354fc | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.routes.chat | [2d9354fc] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [2d9354fc] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:05 | ERROR | app.middleware.request_id | [2d9354fc] | Request failed with exception | id=2d9354fc | error=Undefined variable
+2026-05-14 17:37:05 | INFO | app | [2d9354fc] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [2d9354fc] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [2d9354fc] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [2d9354fc] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [2d9354fc] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [2d9354fc] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [2d9354fc] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [1bc057f7] | Request started | id=1bc057f7 | method=GET | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [1bc057f7] | Request completed | id=1bc057f7 | status=405
+2026-05-14 17:37:05 | INFO | app | [1bc057f7] | Request ID middleware initialized
+2026-05-14 17:37:05 | INFO | app.utils.metrics | [1bc057f7] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:05 | INFO | app | [1bc057f7] | OpenTelemetry metrics initialized
+2026-05-14 17:37:05 | INFO | app | [1bc057f7] | OpenWebUIClient singleton created
+2026-05-14 17:37:05 | INFO | app | [1bc057f7] | CORS enabled | origins=*
+2026-05-14 17:37:05 | INFO | app | [1bc057f7] | Application created | debug=True
+2026-05-14 17:37:05 | INFO | app | [1bc057f7] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [16aeb336] | Request started | id=16aeb336 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:05 | INFO | app.routes.chat | [16aeb336] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:05 | INFO | app.routes.chat | [16aeb336] | Request payload | model=evil<script>alert(1)</script> | message_count=1
+2026-05-14 17:37:05 | WARNING | app.routes.chat | [16aeb336] | Invalid model name | model=evil<script>alert(1)</script>
+2026-05-14 17:37:05 | INFO | app.middleware.request_id | [16aeb336] | Request completed | id=16aeb336 | status=400
+2026-05-14 17:37:06 | INFO | app | [16aeb336] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [16aeb336] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [16aeb336] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [16aeb336] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [16aeb336] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [16aeb336] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [16aeb336] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [4cabe7d9] | Request started | id=4cabe7d9 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:06 | INFO | app.routes.chat | [4cabe7d9] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:06 | INFO | app.routes.chat | [4cabe7d9] | Request payload | model=openai/gpt-4:latest@v1.0+special | message_count=1
+2026-05-14 17:37:06 | INFO | app.routes.chat | [4cabe7d9] | Successfully retrieved chat completion
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [4cabe7d9] | Request completed | id=4cabe7d9 | status=200
+2026-05-14 17:37:06 | INFO | app | [4cabe7d9] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [4cabe7d9] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [4cabe7d9] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [4cabe7d9] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [4cabe7d9] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [4cabe7d9] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [4cabe7d9] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [68949104] | Request started | id=68949104 | method=GET | path=/health
+2026-05-14 17:37:06 | INFO | app.routes.health | [68949104] | Health check requested
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [68949104] | Request completed | id=68949104 | status=200
+2026-05-14 17:37:06 | INFO | app | [68949104] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [68949104] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [68949104] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [68949104] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [68949104] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [68949104] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [68949104] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [6c91d77e] | Request started | id=6c91d77e | method=POST | path=/health
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [6c91d77e] | Request completed | id=6c91d77e | status=405
+2026-05-14 17:37:06 | INFO | app | [6c91d77e] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [6c91d77e] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [6c91d77e] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [6c91d77e] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [6c91d77e] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [6c91d77e] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [6c91d77e] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [fbab3ad6] | Request started | id=fbab3ad6 | method=GET | path=/ready
+2026-05-14 17:37:06 | INFO | app.routes.health | [fbab3ad6] | Readiness check requested
+2026-05-14 17:37:06 | INFO | app.routes.health | [fbab3ad6] | Backend OpenWebUI is reachable
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [fbab3ad6] | Request completed | id=fbab3ad6 | status=200
+2026-05-14 17:37:06 | INFO | app | [fbab3ad6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [fbab3ad6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [fbab3ad6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [fbab3ad6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [fbab3ad6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [fbab3ad6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [fbab3ad6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [e7851aaa] | Request started | id=e7851aaa | method=GET | path=/ready
+2026-05-14 17:37:06 | INFO | app.routes.health | [e7851aaa] | Readiness check requested
+2026-05-14 17:37:06 | WARNING | app.routes.health | [e7851aaa] | Backend returned non-200 status
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [e7851aaa] | Request completed | id=e7851aaa | status=503
+2026-05-14 17:37:06 | INFO | app | [e7851aaa] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [e7851aaa] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [e7851aaa] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [e7851aaa] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [e7851aaa] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [e7851aaa] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [e7851aaa] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [bb838681] | Request started | id=bb838681 | method=GET | path=/ready
+2026-05-14 17:37:06 | INFO | app.routes.health | [bb838681] | Readiness check requested
+2026-05-14 17:37:06 | ERROR | app.routes.health | [bb838681] | Backend unreachable | reason=timeout
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [bb838681] | Request completed | id=bb838681 | status=503
+2026-05-14 17:37:06 | INFO | app | [bb838681] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [bb838681] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [bb838681] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [bb838681] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [bb838681] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [bb838681] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [bb838681] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [0144366b] | Request started | id=0144366b | method=GET | path=/ready
+2026-05-14 17:37:06 | INFO | app.routes.health | [0144366b] | Readiness check requested
+2026-05-14 17:37:06 | ERROR | app.routes.health | [0144366b] | Backend unreachable | error=Error
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [0144366b] | Request completed | id=0144366b | status=503
+2026-05-14 17:37:06 | INFO | app | [0144366b] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [0144366b] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [0144366b] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [0144366b] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [0144366b] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [0144366b] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [0144366b] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [830bc4a1] | Request started | id=830bc4a1 | method=POST | path=/ready
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [830bc4a1] | Request completed | id=830bc4a1 | status=405
+2026-05-14 17:37:06 | INFO | app | [830bc4a1] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [830bc4a1] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [830bc4a1] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [830bc4a1] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [830bc4a1] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [830bc4a1] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [830bc4a1] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [1c3bf2e4] | Request started | id=1c3bf2e4 | method=GET | path=/v1/models
+2026-05-14 17:37:06 | INFO | app.routes.models | [1c3bf2e4] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:06 | INFO | app.routes.models | [1c3bf2e4] | Successfully retrieved models
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [1c3bf2e4] | Request completed | id=1c3bf2e4 | status=200
+2026-05-14 17:37:06 | INFO | app | [1c3bf2e4] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [1c3bf2e4] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [1c3bf2e4] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [1c3bf2e4] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [1c3bf2e4] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [1c3bf2e4] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [1c3bf2e4] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [fee4aece] | Request started | id=fee4aece | method=GET | path=/v1/models
+2026-05-14 17:37:06 | INFO | app.routes.models | [fee4aece] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:06 | WARNING | app.utils.error_handler | [fee4aece] | Timeout calling OpenWebUI models | request_id=fee4aece
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [fee4aece] | Request completed | id=fee4aece | status=504
+2026-05-14 17:37:06 | INFO | app | [fee4aece] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [fee4aece] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [fee4aece] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [fee4aece] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [fee4aece] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [fee4aece] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [fee4aece] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [1cf5c42e] | Request started | id=1cf5c42e | method=GET | path=/v1/models
+2026-05-14 17:37:06 | INFO | app.routes.models | [1cf5c42e] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:06 | ERROR | app.utils.error_handler | [1cf5c42e] | Request failed | endpoint=OpenWebUI models | request_id=1cf5c42e | error=Backend error
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [1cf5c42e] | Request completed | id=1cf5c42e | status=502
+2026-05-14 17:37:06 | INFO | app | [1cf5c42e] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [1cf5c42e] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [1cf5c42e] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [1cf5c42e] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [1cf5c42e] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [1cf5c42e] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [1cf5c42e] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [3630b066] | Request started | id=3630b066 | method=GET | path=/v1/models
+2026-05-14 17:37:06 | INFO | app.routes.models | [3630b066] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:06 | ERROR | app.middleware.request_id | [3630b066] | Request failed with exception | id=3630b066 | error=Undefined variable
+2026-05-14 17:37:06 | INFO | app | [3630b066] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [3630b066] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [3630b066] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [3630b066] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [3630b066] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [3630b066] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [3630b066] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [068406b6] | Request started | id=068406b6 | method=POST | path=/v1/models
+2026-05-14 17:37:06 | INFO | app.middleware.request_id | [068406b6] | Request completed | id=068406b6 | status=405
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | WARNING | app.utils.error_handler | [068406b6] | Timeout calling backend | request_id=test-123
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | WARNING | app.utils.error_handler | [068406b6] | Backend unreachable | endpoint=backend | request_id=test-123
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | ERROR | app.utils.error_handler | [068406b6] | SSL verification failed | endpoint=backend | request_id=test-123
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | ERROR | app.utils.error_handler | [068406b6] | Request failed | endpoint=backend | request_id=test-123 | error=Generic error
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | ERROR | app.utils.error_handler | [068406b6] | Request failed | endpoint=backend | request_id=test-123 | error=Rate limited
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | ERROR | app.utils.error_handler | [068406b6] | Request failed | endpoint=test | request_id=test-123 | error=Error
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Fetching models from OpenWebUI
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Models response | status=200 | latency_ms=0.05
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Sending chat completion | model=test-model | message_count=1
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Chat completion response | status=200 | latency_ms=0.05
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Fetching models from OpenWebUI
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Models response | status=200 | latency_ms=0.06
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Sending chat completion | model=test | message_count=1
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Chat completion response | status=200 | latency_ms=0.05
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Fetching models from OpenWebUI
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Models response | status=200 | latency_ms=0.06
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Fetching models from OpenWebUI
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Models response | status=200 | latency_ms=0.03
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Request ID middleware initialized
+2026-05-14 17:37:06 | INFO | app.utils.metrics | [068406b6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenTelemetry metrics initialized
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUIClient singleton created
+2026-05-14 17:37:06 | INFO | app | [068406b6] | CORS enabled | origins=*
+2026-05-14 17:37:06 | INFO | app | [068406b6] | Application created | debug=True
+2026-05-14 17:37:06 | INFO | app | [068406b6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Fetching models from OpenWebUI
+2026-05-14 17:37:06 | INFO | app.services.openwebui_client | [068406b6] | Models response | status=500 | latency_ms=0.06
+2026-05-14 17:37:21 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:37:21 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:21 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:37:21 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:37:21 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:21 | WARNING | app.utils.error_handler | [] | Timeout calling backend | request_id=test-123
+2026-05-14 17:37:21 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:37:21 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:21 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:37:21 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:37:21 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:21 | WARNING | app.utils.error_handler | [] | Backend unreachable | endpoint=backend | request_id=test-123
+2026-05-14 17:37:21 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:37:21 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:21 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:37:21 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:37:21 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:21 | ERROR | app.utils.error_handler | [] | SSL verification failed | endpoint=backend | request_id=test-123
+2026-05-14 17:37:21 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:37:21 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:21 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:37:21 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:37:21 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:21 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=backend | request_id=test-123 | error=Generic error
+2026-05-14 17:37:21 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:37:21 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:21 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:37:21 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:37:21 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:21 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=backend | request_id=test-123 | error=Rate limited
+2026-05-14 17:37:21 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:37:21 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:21 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:37:21 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:37:21 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:37:21 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:21 | ERROR | app.utils.error_handler | [] | Request failed | endpoint=test | request_id=test-123 | error=Error
+2026-05-14 17:37:41 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [f6dc4a0a] | Request started | id=f6dc4a0a | method=GET | path=/v1/models
+2026-05-14 17:37:41 | INFO | app.routes.models | [f6dc4a0a] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.models | [f6dc4a0a] | Successfully retrieved models
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [f6dc4a0a] | Request completed | id=f6dc4a0a | status=200
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [f7f81830] | Request started | id=f7f81830 | method=GET | path=/v1/models
+2026-05-14 17:37:41 | INFO | app.routes.models | [f7f81830] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.models | [f7f81830] | Successfully retrieved models
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [f7f81830] | Request completed | id=f7f81830 | status=200
+2026-05-14 17:37:41 | INFO | app | [f7f81830] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [f7f81830] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [f7f81830] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [f7f81830] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [f7f81830] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [f7f81830] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [f7f81830] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [30db1aff] | Request started | id=30db1aff | method=GET | path=/v1/models
+2026-05-14 17:37:41 | INFO | app.routes.models | [30db1aff] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.models | [30db1aff] | Successfully retrieved models
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [30db1aff] | Request completed | id=30db1aff | status=200
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [b5eaada2] | Request started | id=b5eaada2 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [b5eaada2] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [b5eaada2] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [b5eaada2] | Successfully retrieved chat completion
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [b5eaada2] | Request completed | id=b5eaada2 | status=200
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [b60719f7] | Request started | id=b60719f7 | method=GET | path=/ready
+2026-05-14 17:37:41 | INFO | app.routes.health | [b60719f7] | Readiness check requested
+2026-05-14 17:37:41 | INFO | app.routes.health | [b60719f7] | Backend OpenWebUI is reachable
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [b60719f7] | Request completed | id=b60719f7 | status=200
+2026-05-14 17:37:41 | INFO | app | [b60719f7] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [b60719f7] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [b60719f7] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [b60719f7] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [b60719f7] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [b60719f7] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [b60719f7] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [7196b7e2] | Request started | id=7196b7e2 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [7196b7e2] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [7196b7e2] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [7196b7e2] | Successfully retrieved chat completion
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [7196b7e2] | Request completed | id=7196b7e2 | status=200
+2026-05-14 17:37:41 | INFO | app | [7196b7e2] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [7196b7e2] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [7196b7e2] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [7196b7e2] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [7196b7e2] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [7196b7e2] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [7196b7e2] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [92a7e770] | Request started | id=92a7e770 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [92a7e770] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [92a7e770] | Request payload | model=unknown | message_count=1
+2026-05-14 17:37:41 | WARNING | app.routes.chat | [92a7e770] | Invalid request payload
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [92a7e770] | Request completed | id=92a7e770 | status=400
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [cfa3dc62] | Request started | id=cfa3dc62 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [cfa3dc62] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [cfa3dc62] | Request payload | model=test-model | message_count=0
+2026-05-14 17:37:41 | WARNING | app.routes.chat | [cfa3dc62] | Invalid request payload
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [cfa3dc62] | Request completed | id=cfa3dc62 | status=400
+2026-05-14 17:37:41 | INFO | app | [cfa3dc62] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [cfa3dc62] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [cfa3dc62] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [cfa3dc62] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [cfa3dc62] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [cfa3dc62] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [cfa3dc62] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [f00da83b] | Request started | id=f00da83b | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [f00da83b] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [f00da83b] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:41 | WARNING | app.utils.error_handler | [f00da83b] | Timeout calling OpenWebUI chat | request_id=f00da83b
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [f00da83b] | Request completed | id=f00da83b | status=504
+2026-05-14 17:37:41 | INFO | app | [f00da83b] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [f00da83b] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [f00da83b] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [f00da83b] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [f00da83b] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [f00da83b] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [f00da83b] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [e0bc3b8f] | Request started | id=e0bc3b8f | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [e0bc3b8f] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [e0bc3b8f] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:41 | ERROR | app.utils.error_handler | [e0bc3b8f] | Request failed | endpoint=OpenWebUI chat | request_id=e0bc3b8f | error=Backend error
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [e0bc3b8f] | Request completed | id=e0bc3b8f | status=502
+2026-05-14 17:37:41 | INFO | app | [e0bc3b8f] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [e0bc3b8f] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [e0bc3b8f] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [e0bc3b8f] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [e0bc3b8f] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [e0bc3b8f] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [e0bc3b8f] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [75b68bcd] | Request started | id=75b68bcd | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [75b68bcd] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [75b68bcd] | Request payload | model=test-model | message_count=1
+2026-05-14 17:37:41 | ERROR | app.middleware.request_id | [75b68bcd] | Request failed with exception | id=75b68bcd | error=Undefined variable
+2026-05-14 17:37:41 | INFO | app | [75b68bcd] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [75b68bcd] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [75b68bcd] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [75b68bcd] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [75b68bcd] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [75b68bcd] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [75b68bcd] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [4e99831d] | Request started | id=4e99831d | method=GET | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [4e99831d] | Request completed | id=4e99831d | status=405
+2026-05-14 17:37:41 | INFO | app | [4e99831d] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [4e99831d] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [4e99831d] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [4e99831d] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [4e99831d] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [4e99831d] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [4e99831d] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [395be462] | Request started | id=395be462 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [395be462] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [395be462] | Request payload | model=evil<script>alert(1)</script> | message_count=1
+2026-05-14 17:37:41 | WARNING | app.routes.chat | [395be462] | Invalid model name | model=evil<script>alert(1)</script>
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [395be462] | Request completed | id=395be462 | status=400
+2026-05-14 17:37:41 | INFO | app | [395be462] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [395be462] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [395be462] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [395be462] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [395be462] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [395be462] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [395be462] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [326eb2b8] | Request started | id=326eb2b8 | method=POST | path=/v1/chat/completions
+2026-05-14 17:37:41 | INFO | app.routes.chat | [326eb2b8] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [326eb2b8] | Request payload | model=openai/gpt-4:latest@v1.0+special | message_count=1
+2026-05-14 17:37:41 | INFO | app.routes.chat | [326eb2b8] | Successfully retrieved chat completion
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [326eb2b8] | Request completed | id=326eb2b8 | status=200
+2026-05-14 17:37:41 | INFO | app | [326eb2b8] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [326eb2b8] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [326eb2b8] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [326eb2b8] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [326eb2b8] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [326eb2b8] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [326eb2b8] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [4dea09be] | Request started | id=4dea09be | method=GET | path=/health
+2026-05-14 17:37:41 | INFO | app.routes.health | [4dea09be] | Health check requested
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [4dea09be] | Request completed | id=4dea09be | status=200
+2026-05-14 17:37:41 | INFO | app | [4dea09be] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [4dea09be] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [4dea09be] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [4dea09be] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [4dea09be] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [4dea09be] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [4dea09be] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [eac49976] | Request started | id=eac49976 | method=POST | path=/health
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [eac49976] | Request completed | id=eac49976 | status=405
+2026-05-14 17:37:41 | INFO | app | [eac49976] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [eac49976] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [eac49976] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [eac49976] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [eac49976] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [eac49976] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [eac49976] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [19a70685] | Request started | id=19a70685 | method=GET | path=/ready
+2026-05-14 17:37:41 | INFO | app.routes.health | [19a70685] | Readiness check requested
+2026-05-14 17:37:41 | INFO | app.routes.health | [19a70685] | Backend OpenWebUI is reachable
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [19a70685] | Request completed | id=19a70685 | status=200
+2026-05-14 17:37:41 | INFO | app | [19a70685] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [19a70685] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [19a70685] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [19a70685] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [19a70685] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [19a70685] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [19a70685] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [6dd90f24] | Request started | id=6dd90f24 | method=GET | path=/ready
+2026-05-14 17:37:41 | INFO | app.routes.health | [6dd90f24] | Readiness check requested
+2026-05-14 17:37:41 | WARNING | app.routes.health | [6dd90f24] | Backend returned non-200 status
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [6dd90f24] | Request completed | id=6dd90f24 | status=503
+2026-05-14 17:37:41 | INFO | app | [6dd90f24] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [6dd90f24] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [6dd90f24] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [6dd90f24] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [6dd90f24] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [6dd90f24] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [6dd90f24] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [b5161824] | Request started | id=b5161824 | method=GET | path=/ready
+2026-05-14 17:37:41 | INFO | app.routes.health | [b5161824] | Readiness check requested
+2026-05-14 17:37:41 | ERROR | app.routes.health | [b5161824] | Backend unreachable | reason=timeout
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [b5161824] | Request completed | id=b5161824 | status=503
+2026-05-14 17:37:41 | INFO | app | [b5161824] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [b5161824] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [b5161824] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [b5161824] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [b5161824] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [b5161824] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [b5161824] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [13b5a420] | Request started | id=13b5a420 | method=GET | path=/ready
+2026-05-14 17:37:41 | INFO | app.routes.health | [13b5a420] | Readiness check requested
+2026-05-14 17:37:41 | ERROR | app.routes.health | [13b5a420] | Backend unreachable | error=Error
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [13b5a420] | Request completed | id=13b5a420 | status=503
+2026-05-14 17:37:41 | INFO | app | [13b5a420] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [13b5a420] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [13b5a420] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [13b5a420] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [13b5a420] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [13b5a420] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [13b5a420] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [65fcf549] | Request started | id=65fcf549 | method=POST | path=/ready
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [65fcf549] | Request completed | id=65fcf549 | status=405
+2026-05-14 17:37:41 | INFO | app | [65fcf549] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [65fcf549] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [65fcf549] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [65fcf549] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [65fcf549] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [65fcf549] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [65fcf549] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [788e5f03] | Request started | id=788e5f03 | method=GET | path=/v1/models
+2026-05-14 17:37:41 | INFO | app.routes.models | [788e5f03] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:41 | INFO | app.routes.models | [788e5f03] | Successfully retrieved models
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [788e5f03] | Request completed | id=788e5f03 | status=200
+2026-05-14 17:37:41 | INFO | app | [788e5f03] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [788e5f03] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [788e5f03] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [788e5f03] | OpenWebUIClient singleton created
+2026-05-14 17:37:41 | INFO | app | [788e5f03] | CORS enabled | origins=*
+2026-05-14 17:37:41 | INFO | app | [788e5f03] | Application created | debug=True
+2026-05-14 17:37:41 | INFO | app | [788e5f03] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [c7ebd073] | Request started | id=c7ebd073 | method=GET | path=/v1/models
+2026-05-14 17:37:41 | INFO | app.routes.models | [c7ebd073] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:41 | WARNING | app.utils.error_handler | [c7ebd073] | Timeout calling OpenWebUI models | request_id=c7ebd073
+2026-05-14 17:37:41 | INFO | app.middleware.request_id | [c7ebd073] | Request completed | id=c7ebd073 | status=504
+2026-05-14 17:37:41 | INFO | app | [c7ebd073] | Request ID middleware initialized
+2026-05-14 17:37:41 | INFO | app.utils.metrics | [c7ebd073] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:41 | INFO | app | [c7ebd073] | OpenTelemetry metrics initialized
+2026-05-14 17:37:41 | INFO | app | [c7ebd073] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [c7ebd073] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [c7ebd073] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [c7ebd073] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.middleware.request_id | [9b4be677] | Request started | id=9b4be677 | method=GET | path=/v1/models
+2026-05-14 17:37:42 | INFO | app.routes.models | [9b4be677] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:42 | ERROR | app.utils.error_handler | [9b4be677] | Request failed | endpoint=OpenWebUI models | request_id=9b4be677 | error=Backend error
+2026-05-14 17:37:42 | INFO | app.middleware.request_id | [9b4be677] | Request completed | id=9b4be677 | status=502
+2026-05-14 17:37:42 | INFO | app | [9b4be677] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [9b4be677] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [9b4be677] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [9b4be677] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [9b4be677] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [9b4be677] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [9b4be677] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.middleware.request_id | [e5e3f817] | Request started | id=e5e3f817 | method=GET | path=/v1/models
+2026-05-14 17:37:42 | INFO | app.routes.models | [e5e3f817] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:37:42 | ERROR | app.middleware.request_id | [e5e3f817] | Request failed with exception | id=e5e3f817 | error=Undefined variable
+2026-05-14 17:37:42 | INFO | app | [e5e3f817] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [e5e3f817] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [e5e3f817] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [e5e3f817] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [e5e3f817] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [e5e3f817] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [e5e3f817] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.middleware.request_id | [87c15e71] | Request started | id=87c15e71 | method=POST | path=/v1/models
+2026-05-14 17:37:42 | INFO | app.middleware.request_id | [87c15e71] | Request completed | id=87c15e71 | status=405
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | WARNING | app.utils.error_handler | [87c15e71] | Timeout calling backend | request_id=test-123
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | WARNING | app.utils.error_handler | [87c15e71] | Backend unreachable | endpoint=backend | request_id=test-123
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | ERROR | app.utils.error_handler | [87c15e71] | SSL verification failed | endpoint=backend | request_id=test-123
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | ERROR | app.utils.error_handler | [87c15e71] | Request failed | endpoint=backend | request_id=test-123 | error=Generic error
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | ERROR | app.utils.error_handler | [87c15e71] | Request failed | endpoint=backend | request_id=test-123 | error=Rate limited
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | ERROR | app.utils.error_handler | [87c15e71] | Request failed | endpoint=test | request_id=test-123 | error=Error
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Fetching models from OpenWebUI
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Models response | status=200 | latency_ms=0.07
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Sending chat completion | model=test-model | message_count=1
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Chat completion response | status=200 | latency_ms=0.07
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Fetching models from OpenWebUI
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Models response | status=200 | latency_ms=0.08
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Sending chat completion | model=test | message_count=1
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Chat completion response | status=200 | latency_ms=0.05
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Fetching models from OpenWebUI
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Models response | status=200 | latency_ms=0.06
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Fetching models from OpenWebUI
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Models response | status=200 | latency_ms=0.04
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Request ID middleware initialized
+2026-05-14 17:37:42 | INFO | app.utils.metrics | [87c15e71] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenTelemetry metrics initialized
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUIClient singleton created
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | CORS enabled | origins=*
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | Application created | debug=True
+2026-05-14 17:37:42 | INFO | app | [87c15e71] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Fetching models from OpenWebUI
+2026-05-14 17:37:42 | INFO | app.services.openwebui_client | [87c15e71] | Models response | status=500 | latency_ms=0.11
+2026-05-14 17:38:49 | INFO | app | [] | Request ID middleware initialized
+2026-05-14 17:38:49 | INFO | app.utils.metrics | [] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:49 | INFO | app | [] | OpenTelemetry metrics initialized
+2026-05-14 17:38:49 | INFO | app | [] | OpenWebUIClient singleton created
+2026-05-14 17:38:49 | INFO | app | [] | CORS enabled | origins=*
+2026-05-14 17:38:49 | INFO | app | [] | Application created | debug=True
+2026-05-14 17:38:49 | INFO | app | [] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [fd065bdd] | Request started | id=fd065bdd | method=GET | path=/v1/models
+2026-05-14 17:38:49 | INFO | app.routes.models | [fd065bdd] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:38:49 | INFO | app.routes.models | [fd065bdd] | Successfully retrieved models
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [fd065bdd] | Request completed | id=fd065bdd | status=200
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [0d5f5aa3] | Request started | id=0d5f5aa3 | method=GET | path=/v1/models
+2026-05-14 17:38:49 | INFO | app.routes.models | [0d5f5aa3] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:38:49 | INFO | app.routes.models | [0d5f5aa3] | Successfully retrieved models
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [0d5f5aa3] | Request completed | id=0d5f5aa3 | status=200
+2026-05-14 17:38:49 | INFO | app | [0d5f5aa3] | Request ID middleware initialized
+2026-05-14 17:38:49 | INFO | app.utils.metrics | [0d5f5aa3] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:49 | INFO | app | [0d5f5aa3] | OpenTelemetry metrics initialized
+2026-05-14 17:38:49 | INFO | app | [0d5f5aa3] | OpenWebUIClient singleton created
+2026-05-14 17:38:49 | INFO | app | [0d5f5aa3] | CORS enabled | origins=*
+2026-05-14 17:38:49 | INFO | app | [0d5f5aa3] | Application created | debug=True
+2026-05-14 17:38:49 | INFO | app | [0d5f5aa3] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [5dd0386f] | Request started | id=5dd0386f | method=GET | path=/v1/models
+2026-05-14 17:38:49 | INFO | app.routes.models | [5dd0386f] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:38:49 | INFO | app.routes.models | [5dd0386f] | Successfully retrieved models
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [5dd0386f] | Request completed | id=5dd0386f | status=200
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [034253eb] | Request started | id=034253eb | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:49 | INFO | app.routes.chat | [034253eb] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:49 | INFO | app.routes.chat | [034253eb] | Request payload | model=test-model | message_count=1
+2026-05-14 17:38:49 | INFO | app.routes.chat | [034253eb] | Successfully retrieved chat completion
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [034253eb] | Request completed | id=034253eb | status=200
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [9a077b90] | Request started | id=9a077b90 | method=GET | path=/ready
+2026-05-14 17:38:49 | INFO | app.routes.health | [9a077b90] | Readiness check requested
+2026-05-14 17:38:49 | INFO | app.routes.health | [9a077b90] | Backend OpenWebUI is reachable
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [9a077b90] | Request completed | id=9a077b90 | status=200
+2026-05-14 17:38:49 | INFO | app | [9a077b90] | Request ID middleware initialized
+2026-05-14 17:38:49 | INFO | app.utils.metrics | [9a077b90] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:49 | INFO | app | [9a077b90] | OpenTelemetry metrics initialized
+2026-05-14 17:38:49 | INFO | app | [9a077b90] | OpenWebUIClient singleton created
+2026-05-14 17:38:49 | INFO | app | [9a077b90] | CORS enabled | origins=*
+2026-05-14 17:38:49 | INFO | app | [9a077b90] | Application created | debug=True
+2026-05-14 17:38:49 | INFO | app | [9a077b90] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [33c5de3f] | Request started | id=33c5de3f | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:49 | INFO | app.routes.chat | [33c5de3f] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:49 | INFO | app.routes.chat | [33c5de3f] | Request payload | model=test-model | message_count=1
+2026-05-14 17:38:49 | INFO | app.routes.chat | [33c5de3f] | Successfully retrieved chat completion
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [33c5de3f] | Request completed | id=33c5de3f | status=200
+2026-05-14 17:38:49 | INFO | app | [33c5de3f] | Request ID middleware initialized
+2026-05-14 17:38:49 | INFO | app.utils.metrics | [33c5de3f] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:49 | INFO | app | [33c5de3f] | OpenTelemetry metrics initialized
+2026-05-14 17:38:49 | INFO | app | [33c5de3f] | OpenWebUIClient singleton created
+2026-05-14 17:38:49 | INFO | app | [33c5de3f] | CORS enabled | origins=*
+2026-05-14 17:38:49 | INFO | app | [33c5de3f] | Application created | debug=True
+2026-05-14 17:38:49 | INFO | app | [33c5de3f] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [e8035f55] | Request started | id=e8035f55 | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:49 | INFO | app.routes.chat | [e8035f55] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:49 | INFO | app.routes.chat | [e8035f55] | Request payload | model=unknown | message_count=1
+2026-05-14 17:38:49 | WARNING | app.routes.chat | [e8035f55] | Invalid request payload
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [e8035f55] | Request completed | id=e8035f55 | status=400
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [77813d8d] | Request started | id=77813d8d | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:49 | INFO | app.routes.chat | [77813d8d] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:49 | INFO | app.routes.chat | [77813d8d] | Request payload | model=test-model | message_count=0
+2026-05-14 17:38:49 | WARNING | app.routes.chat | [77813d8d] | Invalid request payload
+2026-05-14 17:38:49 | INFO | app.middleware.request_id | [77813d8d] | Request completed | id=77813d8d | status=400
+2026-05-14 17:38:49 | INFO | app | [77813d8d] | Request ID middleware initialized
+2026-05-14 17:38:49 | INFO | app.utils.metrics | [77813d8d] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:49 | INFO | app | [77813d8d] | OpenTelemetry metrics initialized
+2026-05-14 17:38:49 | INFO | app | [77813d8d] | OpenWebUIClient singleton created
+2026-05-14 17:38:49 | INFO | app | [77813d8d] | CORS enabled | origins=*
+2026-05-14 17:38:49 | INFO | app | [77813d8d] | Application created | debug=True
+2026-05-14 17:38:49 | INFO | app | [77813d8d] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [d4ab3e61] | Request started | id=d4ab3e61 | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:50 | INFO | app.routes.chat | [d4ab3e61] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:50 | INFO | app.routes.chat | [d4ab3e61] | Request payload | model=test-model | message_count=1
+2026-05-14 17:38:50 | WARNING | app.utils.error_handler | [d4ab3e61] | Timeout calling OpenWebUI chat | request_id=d4ab3e61
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [d4ab3e61] | Request completed | id=d4ab3e61 | status=504
+2026-05-14 17:38:50 | INFO | app | [d4ab3e61] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [d4ab3e61] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [d4ab3e61] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [d4ab3e61] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [d4ab3e61] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [d4ab3e61] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [d4ab3e61] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [4eabc3cf] | Request started | id=4eabc3cf | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:50 | INFO | app.routes.chat | [4eabc3cf] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:50 | INFO | app.routes.chat | [4eabc3cf] | Request payload | model=test-model | message_count=1
+2026-05-14 17:38:50 | ERROR | app.utils.error_handler | [4eabc3cf] | Request failed | endpoint=OpenWebUI chat | request_id=4eabc3cf | error=Backend error
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [4eabc3cf] | Request completed | id=4eabc3cf | status=502
+2026-05-14 17:38:50 | INFO | app | [4eabc3cf] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [4eabc3cf] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [4eabc3cf] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [4eabc3cf] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [4eabc3cf] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [4eabc3cf] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [4eabc3cf] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [b8949631] | Request started | id=b8949631 | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:50 | INFO | app.routes.chat | [b8949631] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:50 | INFO | app.routes.chat | [b8949631] | Request payload | model=test-model | message_count=1
+2026-05-14 17:38:50 | ERROR | app.middleware.request_id | [b8949631] | Request failed with exception | id=b8949631 | error=Undefined variable
+2026-05-14 17:38:50 | INFO | app | [b8949631] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [b8949631] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [b8949631] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [b8949631] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [b8949631] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [b8949631] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [b8949631] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [47918a5c] | Request started | id=47918a5c | method=GET | path=/v1/chat/completions
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [47918a5c] | Request completed | id=47918a5c | status=405
+2026-05-14 17:38:50 | INFO | app | [47918a5c] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [47918a5c] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [47918a5c] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [47918a5c] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [47918a5c] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [47918a5c] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [47918a5c] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [18c07917] | Request started | id=18c07917 | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:50 | INFO | app.routes.chat | [18c07917] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:50 | INFO | app.routes.chat | [18c07917] | Request payload | model=evil<script>alert(1)</script> | message_count=1
+2026-05-14 17:38:50 | WARNING | app.routes.chat | [18c07917] | Invalid model name | model=evil<script>alert(1)</script>
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [18c07917] | Request completed | id=18c07917 | status=400
+2026-05-14 17:38:50 | INFO | app | [18c07917] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [18c07917] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [18c07917] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [18c07917] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [18c07917] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [18c07917] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [18c07917] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [86e6eae6] | Request started | id=86e6eae6 | method=POST | path=/v1/chat/completions
+2026-05-14 17:38:50 | INFO | app.routes.chat | [86e6eae6] | Request received | endpoint=/v1/chat/completions | method=POST | client_ip=127.0.0.1
+2026-05-14 17:38:50 | INFO | app.routes.chat | [86e6eae6] | Request payload | model=openai/gpt-4:latest@v1.0+special | message_count=1
+2026-05-14 17:38:50 | INFO | app.routes.chat | [86e6eae6] | Successfully retrieved chat completion
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [86e6eae6] | Request completed | id=86e6eae6 | status=200
+2026-05-14 17:38:50 | INFO | app | [86e6eae6] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [86e6eae6] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [86e6eae6] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [86e6eae6] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [86e6eae6] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [86e6eae6] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [86e6eae6] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [e5f3d17a] | Request started | id=e5f3d17a | method=GET | path=/health
+2026-05-14 17:38:50 | INFO | app.routes.health | [e5f3d17a] | Health check requested
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [e5f3d17a] | Request completed | id=e5f3d17a | status=200
+2026-05-14 17:38:50 | INFO | app | [e5f3d17a] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [e5f3d17a] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [e5f3d17a] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [e5f3d17a] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [e5f3d17a] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [e5f3d17a] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [e5f3d17a] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [cb69ac91] | Request started | id=cb69ac91 | method=POST | path=/health
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [cb69ac91] | Request completed | id=cb69ac91 | status=405
+2026-05-14 17:38:50 | INFO | app | [cb69ac91] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [cb69ac91] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [cb69ac91] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [cb69ac91] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [cb69ac91] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [cb69ac91] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [cb69ac91] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [99a47838] | Request started | id=99a47838 | method=GET | path=/ready
+2026-05-14 17:38:50 | INFO | app.routes.health | [99a47838] | Readiness check requested
+2026-05-14 17:38:50 | INFO | app.routes.health | [99a47838] | Backend OpenWebUI is reachable
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [99a47838] | Request completed | id=99a47838 | status=200
+2026-05-14 17:38:50 | INFO | app | [99a47838] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [99a47838] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [99a47838] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [99a47838] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [99a47838] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [99a47838] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [99a47838] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [5ceaf1f5] | Request started | id=5ceaf1f5 | method=GET | path=/ready
+2026-05-14 17:38:50 | INFO | app.routes.health | [5ceaf1f5] | Readiness check requested
+2026-05-14 17:38:50 | WARNING | app.routes.health | [5ceaf1f5] | Backend returned non-200 status
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [5ceaf1f5] | Request completed | id=5ceaf1f5 | status=503
+2026-05-14 17:38:50 | INFO | app | [5ceaf1f5] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [5ceaf1f5] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [5ceaf1f5] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [5ceaf1f5] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [5ceaf1f5] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [5ceaf1f5] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [5ceaf1f5] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [a489fd5b] | Request started | id=a489fd5b | method=GET | path=/ready
+2026-05-14 17:38:50 | INFO | app.routes.health | [a489fd5b] | Readiness check requested
+2026-05-14 17:38:50 | ERROR | app.routes.health | [a489fd5b] | Backend unreachable | reason=timeout
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [a489fd5b] | Request completed | id=a489fd5b | status=503
+2026-05-14 17:38:50 | INFO | app | [a489fd5b] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [a489fd5b] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [a489fd5b] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [a489fd5b] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [a489fd5b] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [a489fd5b] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [a489fd5b] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [7a8b2668] | Request started | id=7a8b2668 | method=GET | path=/ready
+2026-05-14 17:38:50 | INFO | app.routes.health | [7a8b2668] | Readiness check requested
+2026-05-14 17:38:50 | ERROR | app.routes.health | [7a8b2668] | Backend unreachable | error=Error
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [7a8b2668] | Request completed | id=7a8b2668 | status=503
+2026-05-14 17:38:50 | INFO | app | [7a8b2668] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [7a8b2668] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [7a8b2668] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [7a8b2668] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [7a8b2668] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [7a8b2668] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [7a8b2668] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [0bdc7607] | Request started | id=0bdc7607 | method=POST | path=/ready
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [0bdc7607] | Request completed | id=0bdc7607 | status=405
+2026-05-14 17:38:50 | INFO | app | [0bdc7607] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [0bdc7607] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [0bdc7607] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [0bdc7607] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [0bdc7607] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [0bdc7607] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [0bdc7607] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [6fac5787] | Request started | id=6fac5787 | method=GET | path=/v1/models
+2026-05-14 17:38:50 | INFO | app.routes.models | [6fac5787] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:38:50 | INFO | app.routes.models | [6fac5787] | Successfully retrieved models
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [6fac5787] | Request completed | id=6fac5787 | status=200
+2026-05-14 17:38:50 | INFO | app | [6fac5787] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [6fac5787] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [6fac5787] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [6fac5787] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [6fac5787] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [6fac5787] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [6fac5787] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [6388dc01] | Request started | id=6388dc01 | method=GET | path=/v1/models
+2026-05-14 17:38:50 | INFO | app.routes.models | [6388dc01] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:38:50 | WARNING | app.utils.error_handler | [6388dc01] | Timeout calling OpenWebUI models | request_id=6388dc01
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [6388dc01] | Request completed | id=6388dc01 | status=504
+2026-05-14 17:38:50 | INFO | app | [6388dc01] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [6388dc01] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [6388dc01] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [6388dc01] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [6388dc01] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [6388dc01] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [6388dc01] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [eec1532c] | Request started | id=eec1532c | method=GET | path=/v1/models
+2026-05-14 17:38:50 | INFO | app.routes.models | [eec1532c] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:38:50 | ERROR | app.utils.error_handler | [eec1532c] | Request failed | endpoint=OpenWebUI models | request_id=eec1532c | error=Backend error
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [eec1532c] | Request completed | id=eec1532c | status=502
+2026-05-14 17:38:50 | INFO | app | [eec1532c] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [eec1532c] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [eec1532c] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [eec1532c] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [eec1532c] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [eec1532c] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [eec1532c] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [7fd11f41] | Request started | id=7fd11f41 | method=GET | path=/v1/models
+2026-05-14 17:38:50 | INFO | app.routes.models | [7fd11f41] | Request received | endpoint=/v1/models | method=GET | client_ip=127.0.0.1
+2026-05-14 17:38:50 | ERROR | app.middleware.request_id | [7fd11f41] | Request failed with exception | id=7fd11f41 | error=Undefined variable
+2026-05-14 17:38:50 | INFO | app | [7fd11f41] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [7fd11f41] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [7fd11f41] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [7fd11f41] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [7fd11f41] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [7fd11f41] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [7fd11f41] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [648ae133] | Request started | id=648ae133 | method=POST | path=/v1/models
+2026-05-14 17:38:50 | INFO | app.middleware.request_id | [648ae133] | Request completed | id=648ae133 | status=405
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | WARNING | app.utils.error_handler | [648ae133] | Timeout calling backend | request_id=test-123
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | WARNING | app.utils.error_handler | [648ae133] | Backend unreachable | endpoint=backend | request_id=test-123
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | ERROR | app.utils.error_handler | [648ae133] | SSL verification failed | endpoint=backend | request_id=test-123
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | ERROR | app.utils.error_handler | [648ae133] | Request failed | endpoint=backend | request_id=test-123 | error=Generic error
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | ERROR | app.utils.error_handler | [648ae133] | Request failed | endpoint=backend | request_id=test-123 | error=Rate limited
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | ERROR | app.utils.error_handler | [648ae133] | Request failed | endpoint=test | request_id=test-123 | error=Error
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Fetching models from OpenWebUI
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Models response | status=200 | latency_ms=0.05
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Sending chat completion | model=test-model | message_count=1
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Chat completion response | status=200 | latency_ms=0.05
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Fetching models from OpenWebUI
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Models response | status=200 | latency_ms=0.05
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Sending chat completion | model=test | message_count=1
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Chat completion response | status=200 | latency_ms=0.05
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Fetching models from OpenWebUI
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Models response | status=200 | latency_ms=0.05
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Fetching models from OpenWebUI
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Models response | status=200 | latency_ms=0.03
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Request ID middleware initialized
+2026-05-14 17:38:50 | INFO | app.utils.metrics | [648ae133] | OpenTelemetry metrics initialized with Prometheus exporter
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenTelemetry metrics initialized
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUIClient singleton created
+2026-05-14 17:38:50 | INFO | app | [648ae133] | CORS enabled | origins=*
+2026-05-14 17:38:50 | INFO | app | [648ae133] | Application created | debug=True
+2026-05-14 17:38:50 | INFO | app | [648ae133] | OpenWebUI backend URL: http://test-openwebui:3000
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Fetching models from OpenWebUI
+2026-05-14 17:38:50 | INFO | app.services.openwebui_client | [648ae133] | Models response | status=500 | latency_ms=0.06
