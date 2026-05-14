@@ -16,7 +16,7 @@ RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
 USER appuser
 
 # Set environment variables
-ENV OPENWEBUI_BASE_URL=http://openwebui:3000
+ENV OPENWEBUI_BASE_URL=http://openwebui:8080
 ENV FLASK_DEBUG=false
 ENV FLASK_HOST=0.0.0.0
 ENV FLASK_PORT=5001

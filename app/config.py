@@ -37,3 +37,24 @@ class Config:
     RATE_LIMIT_GLOBAL = os.environ.get("RATE_LIMIT_GLOBAL", "100 per minute")
     RATE_LIMIT_MODELS = os.environ.get("RATE_LIMIT_MODELS", "30 per minute")
     RATE_LIMIT_CHAT = os.environ.get("RATE_LIMIT_CHAT", "30 per minute")
+    RATE_LIMIT_STORAGE_URL = os.environ.get(
+        "RATE_LIMIT_STORAGE_URL", "memory://"
+    )
+
+    # CORS configuration
+    CORS_ENABLED = os.environ.get("CORS_ENABLED", "true").lower() in (
+        "true",
+        "1",
+        "yes",
+    )
+    CORS_ALLOWED_ORIGINS = os.environ.get("CORS_ALLOWED_ORIGINS", "*")
+    CORS_ALLOW_METHODS = os.environ.get(
+        "CORS_ALLOW_METHODS", "GET, POST, PUT, DELETE, OPTIONS"
+    )
+    CORS_ALLOW_HEADERS = os.environ.get(
+        "CORS_ALLOW_HEADERS", "Content-Type, Authorization"
+    )
+    CORS_ALLOW_CREDENTIALS = os.environ.get(
+        "CORS_ALLOW_CREDENTIALS", "true"
+    ).lower() in ("true", "1", "yes")
+    CORS_MAX_AGE = int(os.environ.get("CORS_MAX_AGE", "3600"))

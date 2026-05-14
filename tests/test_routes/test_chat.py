@@ -1,7 +1,5 @@
 """Tests for the chat completions endpoint."""
 
-from unittest.mock import Mock, patch
-
 import pytest
 from flask import Flask
 from requests.exceptions import RequestException, Timeout
@@ -11,12 +9,10 @@ class TestChatCompletionsEndpoint:
     """Test cases for POST /v1/chat/completions endpoint."""
 
     @pytest.fixture(autouse=True)
-    def mock_client(self):
-        """Mock OpenWebUIClient to avoid hitting a real backend."""
-        with patch("app.routes.chat.OpenWebUIClient") as mock_cls:
-            self.mock_client_instance = Mock()
-            mock_cls.return_value = self.mock_client_instance
-            yield mock_cls
+    def mock_client(self, mock_openwebui_client):
+        """Inject the app-level mock client for test access."""
+        self.mock_client_instance = mock_openwebui_client
+        yield
 
     def _set_response(self, body=None):
         """Configure the mock client to return a specific chat response."""

@@ -1,7 +1,5 @@
 """Tests for the models endpoint."""
 
-from unittest.mock import Mock, patch
-
 import pytest
 from flask import Flask
 from requests.exceptions import RequestException, Timeout
@@ -11,12 +9,10 @@ class TestModelsEndpoint:
     """Test cases for GET /v1/models endpoint."""
 
     @pytest.fixture(autouse=True)
-    def mock_client(self):
-        """Mock OpenWebUIClient to avoid hitting a real backend."""
-        with patch("app.routes.models.OpenWebUIClient") as mock_cls:
-            self.mock_client_instance = Mock()
-            mock_cls.return_value = self.mock_client_instance
-            yield mock_cls
+    def mock_client(self, mock_openwebui_client):
+        """Inject the app-level mock client for test access."""
+        self.mock_client_instance = mock_openwebui_client
+        yield
 
     def test_models_endpoint_success(self, client: Flask.test_client_class) -> None:
         """Test successful models fetch returns 200."""

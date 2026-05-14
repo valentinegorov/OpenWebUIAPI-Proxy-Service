@@ -52,6 +52,11 @@ def setup_logging(
     app_logger = logging.getLogger("app")
     app_logger.setLevel(level)
 
+    # Avoid duplicate handlers if setup_logging is called multiple times
+    # (e.g., during tests with repeated create_app calls)
+    if app_logger.handlers:
+        app_logger.handlers.clear()
+
     if file_handler:
         app_logger.addHandler(file_handler)
     app_logger.addHandler(console_handler)

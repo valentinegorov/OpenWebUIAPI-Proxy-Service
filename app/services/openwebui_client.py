@@ -138,13 +138,15 @@ class OpenWebUIClient:
 
         Returns:
             True if backend is reachable, False otherwise.
+
+        Raises:
+            requests.exceptions.RequestException: If the backend request fails
+                (timeout, connection error, etc.). This allows callers to
+                differentiate between "backend returned non-200" and
+                "backend unreachable".
         """
-        try:
-            response = self.session.get(
-                f"{self.base_url}/api/models",
-                timeout=self.readiness_timeout,
-            )
-            return response.status_code == 200
-        except requests.exceptions.RequestException as e:
-            self.logger.error("Backend unreachable | error=%s", str(e))
-            return False
+        response = self.session.get(
+            f"{self.base_url}/api/models",
+            timeout=self.readiness_timeout,
+        )
+        return response.status_code == 200

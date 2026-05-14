@@ -8,7 +8,6 @@ from flask import Blueprint, current_app, jsonify
 from requests.exceptions import RequestException, Timeout
 
 from app.extensions import limiter
-from app.services.openwebui_client import OpenWebUIClient
 
 health_bp = Blueprint("health", __name__)
 logger = logging.getLogger(__name__)
@@ -45,12 +44,7 @@ def readiness_check() -> Tuple[Dict[str, Any], int]:
     logger.info("Readiness check requested")
 
     try:
-        # Get the OpenWebUI client from app config
-        client = OpenWebUIClient(
-            base_url=current_app.config["OPENWEBUI_BASE_URL"],
-            verify_ssl=current_app.config["OPENWEBUI_VERIFY_SSL"],
-            readiness_timeout=current_app.config["READINESS_TIMEOUT"],
-        )
+        client = current_app.openwebui_client
 
         if client.check_readiness():
             logger.info("Backend OpenWebUI is reachable")

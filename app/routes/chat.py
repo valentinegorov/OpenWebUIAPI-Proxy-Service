@@ -8,7 +8,6 @@ from flask import Blueprint, current_app, jsonify, request
 from requests.exceptions import RequestException
 
 from app.extensions import limiter
-from app.services.openwebui_client import OpenWebUIClient
 from app.utils.error_handler import handle_proxy_error
 
 chat_bp = Blueprint("chat", __name__)
@@ -56,12 +55,7 @@ def chat_completions() -> Tuple[Dict[str, Any], int]:
         return jsonify({"error": "Invalid model name"}), 400
 
     try:
-        # Get the OpenWebUI client from app config
-        client = OpenWebUIClient(
-            base_url=current_app.config["OPENWEBUI_BASE_URL"],
-            verify_ssl=current_app.config["OPENWEBUI_VERIFY_SSL"],
-            chat_completion_timeout=current_app.config["CHAT_COMPLETION_TIMEOUT"],
-        )
+        client = current_app.openwebui_client
 
         response_data = client.chat_completions(
             model=model,

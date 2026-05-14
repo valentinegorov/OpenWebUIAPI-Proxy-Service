@@ -1,7 +1,5 @@
 """Tests for the health and readiness endpoints."""
 
-from unittest.mock import Mock, patch
-
 import pytest
 from flask import Flask
 from requests.exceptions import RequestException, Timeout
@@ -30,12 +28,10 @@ class TestReadinessEndpoint:
     """Test cases for GET /ready endpoint."""
 
     @pytest.fixture(autouse=True)
-    def mock_client(self):
-        """Mock OpenWebUIClient for deterministic readiness tests."""
-        with patch("app.routes.health.OpenWebUIClient") as mock_cls:
-            self.mock_client_instance = Mock()
-            mock_cls.return_value = self.mock_client_instance
-            yield mock_cls
+    def mock_client(self, mock_openwebui_client):
+        """Inject the app-level mock client for test access."""
+        self.mock_client_instance = mock_openwebui_client
+        yield
 
     def test_readiness_success(self, client: Flask.test_client_class) -> None:
         """Test that readiness returns 200 when backend is reachable."""

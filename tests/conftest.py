@@ -1,5 +1,7 @@
 """Pytest fixtures and configuration for tests."""
 
+from unittest.mock import Mock
+
 import pytest
 from flask import Flask
 
@@ -40,3 +42,13 @@ def client(app: Flask) -> Flask.test_client_class:
 def runner(app: Flask) -> Flask.test_cli_runner_class:
     """Create CLI runner."""
     return app.test_cli_runner()
+
+
+@pytest.fixture(autouse=True)
+def mock_openwebui_client(app: Flask) -> Mock:
+    """Replace the app-level OpenWebUIClient with a mock for all tests."""
+    mock_client = Mock()
+    # Save the real client if it exists (created by create_app)
+    # and replace it with our mock
+    app.openwebui_client = mock_client
+    return mock_client

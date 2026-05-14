@@ -94,18 +94,18 @@ class TestOpenWebUIClient:
             assert result is True
 
     def test_check_readiness_failure(self, client: OpenWebUIClient) -> None:
-        """Test failed readiness check due to connection error."""
+        """Test that check_readiness raises RequestException on connection error."""
         exc = requests.exceptions.RequestException("Connection failed")
         with patch.object(client.session, "get", side_effect=exc):
-            result = client.check_readiness()
-            assert result is False
+            with pytest.raises(requests.exceptions.RequestException, match="Connection failed"):
+                client.check_readiness()
 
     def test_check_readiness_timeout(self, client: OpenWebUIClient) -> None:
-        """Test failed readiness check due to timeout."""
+        """Test that check_readiness raises Timeout on request timeout."""
         exc = requests.exceptions.Timeout("Request timed out")
         with patch.object(client.session, "get", side_effect=exc):
-            result = client.check_readiness()
-            assert result is False
+            with pytest.raises(requests.exceptions.Timeout, match="Request timed out"):
+                client.check_readiness()
 
     def test_session_close(self, client: OpenWebUIClient) -> None:
         """Test that close() properly closes the session."""

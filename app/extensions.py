@@ -22,5 +22,5 @@ def _rate_limit_key() -> str:
 limiter = Limiter(
     key_func=_rate_limit_key,
     default_limits=[],  # default handled via create_app config
-    storage_uri="memory://",
+    storage_uri=None,  # defer to app.config["RATELIMIT_STORAGE_URI"]
 )

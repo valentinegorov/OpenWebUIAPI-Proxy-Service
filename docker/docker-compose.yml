@@ -8,17 +8,19 @@ services:
     ports:
       - "5001:5001"
     environment:
-      - OPENWEBUI_BASE_URL=http://openwebui:3000
+      - OPENWEBUI_BASE_URL=http://openwebui:8080
       - OPENWEBUI_VERIFY_SSL=true
       - FLASK_DEBUG=false
       - LOG_LEVEL=INFO
+      # Use Redis for shared rate-limit counters across gunicorn workers
+      # - RATE_LIMIT_STORAGE_URL=redis://redis:6379/0
     depends_on:
       - openwebui
     networks:
       - proxy-network
     restart: unless-stopped
     volumes:
-      - ./logs:/app/logs
+      - ../logs:/app/logs
 
   openwebui:
     image: ghcr.io/open-webui/open-webui:main
