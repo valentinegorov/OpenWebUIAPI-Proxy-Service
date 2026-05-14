@@ -1,0 +1,24 @@
+{
+  "workflow_preferences": {
+    "planning_cycle": "iterative",
+    "documentation_style": "concise_markdown",
+    "commit_message_format": "conventional_commits",
+    "branching_strategy": "feature_branch",
+    "code_review_required": true,
+    "testing_strategy": "pytest_with_coverage",
+    "logging_level": "INFO",
+    "environment_management": "dotenv"
+  },
+  "gsd_integration": {
+    "enabled": true,
+    "version": "1.0.0",
+    "state_tracking": "file_based",
+    "research_enabled": false
+  },
+  "project_metadata": {
+    "name": "OpenWebUI Proxy Server",
+    "version": "1.2.0",
+    "language": "Python",
+    "framework": "Flask"
+  }
+}
