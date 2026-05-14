@@ -10,9 +10,10 @@ from flask_cors import CORS
 from app.config import Config
 from app.extensions import limiter
 from app.middleware import init_request_id_middleware
-from app.routes import models_bp, chat_bp, health_bp
+from app.routes import models_bp, chat_bp, health_bp, metrics_bp
 from app.services.openwebui_client import OpenWebUIClient
 from app.utils.logging_config import setup_logging
+from app.utils.metrics import setup_metrics, shutdown_metrics
 
 
 def create_app(config: Optional[Config] = None) -> Flask:
@@ -58,6 +59,13 @@ def create_app(config: Optional[Config] = None) -> Flask:
     init_request_id_middleware(app)
     logger.info("Request ID middleware initialized")
 
+    # Initialize OpenTelemetry metrics with Prometheus exporter
+    setup_metrics()
+    logger.info("OpenTelemetry metrics initialized")
+    
+    # Register shutdown handler for metrics cleanup
+    atexit.register(shutdown_metrics)
+
     # Create app-level OpenWebUIClient singleton for TCP connection reuse
     app.openwebui_client = OpenWebUIClient(
         base_url=config.OPENWEBUI_BASE_URL,
@@ -76,6 +84,7 @@ def create_app(config: Optional[Config] = None) -> Flask:
     app.register_blueprint(models_bp)
     app.register_blueprint(chat_bp)
     app.register_blueprint(health_bp)
+    app.register_blueprint(metrics_bp)
 
     # Set up CORS
     if config.CORS_ENABLED:
