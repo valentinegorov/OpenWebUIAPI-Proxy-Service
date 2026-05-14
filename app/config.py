@@ -40,6 +40,11 @@ class Config:
     RATE_LIMIT_STORAGE_URL = os.environ.get(
         "RATE_LIMIT_STORAGE_URL", "memory://"
     )
+    
+    # Retry configuration for backend failures
+    RETRY_MAX_ATTEMPTS = int(os.environ.get("RETRY_MAX_ATTEMPTS", "3"))
+    RETRY_BACKOFF_FACTOR = float(os.environ.get("RETRY_BACKOFF_FACTOR", "0.5"))
+    RETRY_STATUSES = [502, 503, 504]
 
     # CORS configuration
     CORS_ENABLED = os.environ.get("CORS_ENABLED", "true").lower() in (

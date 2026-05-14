@@ -1,15 +1,18 @@
 """OpenWebUI API client service."""
 
 import logging
+import time
 from typing import Any, Dict, Optional
 
 import requests
+from requests.adapters import HTTPAdapter, Retry
 
 
 class OpenWebUIClient:
     """Client for interacting with the OpenWebUI API.
 
     Uses a requests.Session for connection pooling and reuse across calls.
+    Includes retry logic with exponential backoff for transient failures.
     """
 
     def __init__(
@@ -20,6 +23,9 @@ class OpenWebUIClient:
         request_timeout: int = 30,
         chat_completion_timeout: int = 120,
         readiness_timeout: int = 5,
+        retry_max_attempts: int = 3,
+        retry_backoff_factor: float = 0.5,
+        retry_statuses: list = None,
     ):
         """
         Initialize the OpenWebUI client.
@@ -30,6 +36,9 @@ class OpenWebUIClient:
             request_timeout: Default timeout for API requests.
             chat_completion_timeout: Timeout for chat completion requests.
             readiness_timeout: Timeout for readiness checks.
+            retry_max_attempts: Maximum number of retry attempts.
+            retry_backoff_factor: Backoff factor for exponential backoff.
+            retry_statuses: List of HTTP status codes to retry on.
         """
         self.base_url = base_url.rstrip("/")
         self.verify_ssl = verify_ssl
@@ -41,9 +50,22 @@ class OpenWebUIClient:
         # Connection pooling via Session for TCP connection reuse
         self.session = requests.Session()
         self.session.verify = verify_ssl
-        # Optionally configure pool size for high-throughput scenarios:
-        # adapter = requests.adapters.HTTPAdapter(pool_connections=10, pool_maxsize=20)
-        # self.session.mount("https://", adapter)
+        
+        # Configure retry strategy with exponential backoff
+        if retry_statuses is None:
+            retry_statuses = [502, 503, 504]
+        
+        retry_strategy = Retry(
+            total=retry_max_attempts,
+            backoff_factor=retry_backoff_factor,
+            status_forcelist=retry_statuses,
+            allowed_methods=["GET", "POST"],
+            raise_on_status=False,
+        )
+        
+        adapter = HTTPAdapter(max_retries=retry_strategy, pool_connections=10, pool_maxsize=20)
+        self.session.mount("http://", adapter)
+        self.session.mount("https://", adapter)
 
     def close(self) -> None:
         """Close the underlying requests session."""
@@ -75,15 +97,17 @@ class OpenWebUIClient:
             headers["Authorization"] = auth_header
 
         self.logger.info("Fetching models from OpenWebUI")
+        start_time = time.time()
         response = self.session.get(
             f"{self.base_url}/api/models",
             headers=headers,
             timeout=self.request_timeout,
         )
+        latency_ms = (time.time() - start_time) * 1000
         self.logger.info(
             "Models response | status=%s | latency_ms=%.2f",
             response.status_code,
-            response.elapsed.total_seconds() * 1000,
+            latency_ms,
         )
 
         response.raise_for_status()
@@ -117,16 +141,18 @@ class OpenWebUIClient:
             model,
             len(messages),
         )
+        start_time = time.time()
         response = self.session.post(
             f"{self.base_url}/api/chat/completions",
             headers=headers,
             json=payload,
             timeout=self.chat_completion_timeout,
         )
+        latency_ms = (time.time() - start_time) * 1000
         self.logger.info(
             "Chat completion response | status=%s | latency_ms=%.2f",
             response.status_code,
-            response.elapsed.total_seconds() * 1000,
+            latency_ms,
         )
 
         response.raise_for_status()

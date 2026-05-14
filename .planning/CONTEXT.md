@@ -58,28 +58,29 @@
 ### Logging Status
 - Structured logging implemented with rotation
 - Console and file handlers configured
-- Format: `%(asctime)s | %(levelname)s | %(name)s | %(message)s`
-- **Gap**: No request ID tracking for correlating logs across request lifecycle
-- **Gap**: Limited request/response payload logging for debugging
+- Format: `%(asctime)s | %(levelname)s | %(name)s | [%(request_id)s] | %(message)s`
+- ✅ Request ID tracking implemented via context vars and middleware
+- ✅ Request/response lifecycle logging with status codes
+- ✅ Error responses include request_id for client-side correlation
 
 ### Observability Gaps
-1. No distributed tracing
-2. No metrics endpoint
-3. No request ID propagation
-4. Limited visibility into backend call latencies beyond log messages
+1. No distributed tracing (deferred)
+2. No metrics endpoint (TODO: Phase 2 remaining work)
+3. ✅ Request ID propagation implemented
+4. ✅ Backend call latencies logged with timing information
 
 ---
 
 ## Technical Debt Summary
 
-| Item | Priority | Effort | Notes |
-|------|----------|--------|-------|
-| Add request ID tracking | High | Low | Use UUID per request, include in all log statements |
-| Implement retry logic | High | Medium | Exponential backoff for 5xx errors and timeouts |
-| Add metrics endpoint | High | Medium | Prometheus-compatible `/metrics` endpoint |
-| Expand error handler coverage | Medium | Low | Cover edge cases in status code extraction |
-| Request/response logging toggle | Medium | Low | Configurable verbosity for debugging |
-| Documentation updates | Medium | Medium | API usage, configuration, monitoring setup |
+| Item | Priority | Effort | Status | Notes |
+|------|----------|--------|--------|-------|
+| Add request ID tracking | High | Low | ✅ Done | UUID per request, included in all log statements and error responses |
+| Implement retry logic | High | Medium | ✅ Done | Exponential backoff for 5xx errors using requests.Retry adapter |
+| Add metrics endpoint | High | Medium | TODO | Prometheus-compatible `/metrics` endpoint with OpenTelemetry |
+| Expand error handler coverage | Medium | Low | Partial | Current: 79%, edge cases in status code extraction still uncovered |
+| Request/response logging toggle | Medium | Low | Partial | Latency logging added, verbosity toggle pending |
+| Documentation updates | Medium | Medium | TODO | API usage, configuration, monitoring setup |
 
 ---
 
