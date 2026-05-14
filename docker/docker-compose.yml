@@ -12,18 +12,27 @@ services:
       - OPENWEBUI_VERIFY_SSL=true
       - FLASK_DEBUG=false
       - LOG_LEVEL=INFO
+      - GUNICORN_WORKERS=4
+      - GUNICORN_TIMEOUT=300
       # Use Redis for shared rate-limit counters across gunicorn workers
       # - RATE_LIMIT_STORAGE_URL=redis://redis:6379/0
     depends_on:
-      - openwebui
+      openwebui:
+        condition: service_healthy
     networks:
       - proxy-network
     restart: unless-stopped
     volumes:
       - ../logs:/app/logs
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5001/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
 
   openwebui:
-    image: ghcr.io/open-webui/open-webui:main
+    image: ghcr.io/open-webui/open-webui:latest
     ports:
       - "3000:8080"
     environment:
@@ -33,6 +42,12 @@ services:
     networks:
       - proxy-network
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
 
   ollama:
     image: ollama/ollama:latest
@@ -43,6 +58,20 @@ services:
     networks:
       - proxy-network
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:11434/api/tags || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    # Uncomment below to enable GPU support
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
 
 networks:
   proxy-network:
