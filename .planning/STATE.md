@@ -8,7 +8,7 @@
 ## Active Context
 
 ### Current Sprint
-- **Focus**: Observability enhancements and CI/CD setup
+- **Focus**: Observability enhancements and documentation improvements
 - **Started**: 2025-01-XX
 - **Target Completion**: 2025-02-XX
 - **Blockers**: None
@@ -19,9 +19,7 @@
 - Project context documented
 
 ### Open Decisions
-1. Rate limiting strategy selection (token bucket vs sliding window)
-2. Metrics backend choice (Prometheus vs OpenTelemetry)
-3. CI/CD platform (GitHub Actions vs GitLab CI)
+*(All key decisions have been locked - see [CONTEXT.md](./CONTEXT.md))*
 
 ## Memory
 
@@ -32,8 +30,11 @@
 
 ### Technical Debt
 - [ ] Error handling needs consolidation across routes
-- [ ] Test coverage below target (currently ~70%, target 85%+)
+- [ ] Test coverage at 93% ✅ (target 85%+ met)
 - [ ] Documentation incomplete for advanced features
+- [ ] No retry logic for backend failures
+- [ ] No request ID tracking in logs
+- [ ] No metrics endpoint for monitoring
 
 ### Known Issues
 - Streaming responses not yet optimized
@@ -41,9 +42,11 @@
 - Limited observability beyond basic logging
 
 ## Next Actions
-1. Review and prioritize Phase 2 tasks
-2. Set up development environment for new contributors
-3. Schedule technical discussion on rate limiting strategies
+1. Implement request ID tracking in logging middleware
+2. Add retry logic with exponential backoff to OpenWebUI client
+3. Set up OpenTelemetry metrics endpoint for Zabbix integration
+4. Update documentation with monitoring setup guide
+5. Verify test coverage remains above 85% after changes
 
 ## References
 - [Project Context](./PROJECT.md)
