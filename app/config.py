@@ -27,6 +27,8 @@ class Config:
     LOG_MAX_BYTES = int(os.environ.get("LOG_MAX_BYTES", str(10 * 1024 * 1024)))
     LOG_BACKUP_COUNT = int(os.environ.get("LOG_BACKUP_COUNT", "5"))
     LOG_LEVEL = os.environ.get("LOG_LEVEL", "INFO").upper()
+    LOG_REQUEST_BODY = os.environ.get("LOG_REQUEST_BODY", "false").lower() in ("true", "1", "yes")
+    LOG_RESPONSE_BODY = os.environ.get("LOG_RESPONSE_BODY", "false").lower() in ("true", "1", "yes")
 
     # Request timeout configuration
     REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", "30"))

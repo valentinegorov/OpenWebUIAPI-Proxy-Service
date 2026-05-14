@@ -4,7 +4,7 @@ import logging
 from typing import Any, Tuple
 
 from flask import current_app, jsonify
-from requests.exceptions import RequestException, Timeout
+from requests.exceptions import RequestException, Timeout, ConnectionError as RequestsConnectionError, SSLError
 
 logger = logging.getLogger(__name__)
 
@@ -25,6 +25,28 @@ def handle_proxy_error(
     from flask import g
     request_id = getattr(g, "request_id", "unknown")
     
+    if isinstance(e, SSLError):
+        logger.error(
+            "SSL verification failed | endpoint=%s | request_id=%s",
+            endpoint_name,
+            request_id,
+        )
+        return jsonify({
+            "error": "SSL verification failed",
+            "request_id": request_id,
+        }), 502
+    
+    if isinstance(e, RequestsConnectionError):
+        logger.warning(
+            "Backend unreachable | endpoint=%s | request_id=%s",
+            endpoint_name,
+            request_id,
+        )
+        return jsonify({
+            "error": "Backend unreachable",
+            "request_id": request_id,
+        }), 503
+    
     if isinstance(e, Timeout):
         logger.warning(
             "Timeout calling %s | request_id=%s",
@@ -38,10 +60,7 @@ def handle_proxy_error(
 
     status_code = 502
     if e.response is not None:
-        try:
-            status_code = e.response.status_code
-        except Exception:
-            pass
+        status_code = getattr(e.response, "status_code", 502)
 
     logger.error(
         "Request failed | endpoint=%s | request_id=%s | error=%s",

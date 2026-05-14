@@ -1,4 +1,4 @@
-```
+```gitignore
 # Python
 __pycache__/
 *.pyc
@@ -13,19 +13,17 @@ pip-delete-this-directory.txt
 .tox/
 .coverage
 htmlcov/
-.coverage.*
-.nox/
+
+# Testing
 .pytest_cache/
-.mypy_cache/
+.coverage*
 
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-.coverage
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+target/
 ```

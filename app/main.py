@@ -49,6 +49,8 @@ def create_app(config: Optional[Config] = None) -> Flask:
     app.config["RATE_LIMIT_GLOBAL"] = config.RATE_LIMIT_GLOBAL
     app.config["RATE_LIMIT_MODELS"] = config.RATE_LIMIT_MODELS
     app.config["RATE_LIMIT_CHAT"] = config.RATE_LIMIT_CHAT
+    app.config["LOG_REQUEST_BODY"] = config.LOG_REQUEST_BODY
+    app.config["LOG_RESPONSE_BODY"] = config.LOG_RESPONSE_BODY
 
     # Set up rate limiting
     app.config["RATELIMIT_DEFAULT"] = config.RATE_LIMIT_GLOBAL
