@@ -9,6 +9,7 @@ from flask_cors import CORS
 
 from app.config import Config
 from app.extensions import limiter
+from app.middleware import init_request_id_middleware
 from app.routes import models_bp, chat_bp, health_bp
 from app.services.openwebui_client import OpenWebUIClient
 from app.utils.logging_config import setup_logging
@@ -53,6 +54,10 @@ def create_app(config: Optional[Config] = None) -> Flask:
     app.config["RATELIMIT_STORAGE_URI"] = config.RATE_LIMIT_STORAGE_URL
     limiter.init_app(app)
 
+    # Initialize request ID middleware
+    init_request_id_middleware(app)
+    logger.info("Request ID middleware initialized")
+
     # Create app-level OpenWebUIClient singleton for TCP connection reuse
     app.openwebui_client = OpenWebUIClient(
         base_url=config.OPENWEBUI_BASE_URL,
@@ -60,6 +65,9 @@ def create_app(config: Optional[Config] = None) -> Flask:
         request_timeout=config.REQUEST_TIMEOUT,
         chat_completion_timeout=config.CHAT_COMPLETION_TIMEOUT,
         readiness_timeout=config.READINESS_TIMEOUT,
+        retry_max_attempts=config.RETRY_MAX_ATTEMPTS,
+        retry_backoff_factor=config.RETRY_BACKOFF_FACTOR,
+        retry_statuses=config.RETRY_STATUSES,
     )
     atexit.register(app.openwebui_client.close)
     logger.info("OpenWebUIClient singleton created")

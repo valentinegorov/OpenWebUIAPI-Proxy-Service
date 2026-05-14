@@ -2,8 +2,37 @@
 
 import logging
 import sys
+import uuid
+from contextvars import ContextVar
 from logging.handlers import RotatingFileHandler
 
+
+# Context variable to store request ID across the request lifecycle
+_request_id_var: ContextVar[str] = ContextVar("request_id", default="")
+
+
+def get_request_id() -> str:
+    """Get the current request ID."""
+    return _request_id_var.get()
+
+
+def set_request_id(request_id: str) -> None:
+    """Set the request ID for the current request context."""
+    _request_id_var.set(request_id)
+
+
+def generate_request_id() -> str:
+    """Generate a new unique request ID."""
+    return str(uuid.uuid4())[:8]
+
+
+class RequestIDFilter(logging.Filter):
+    """Logging filter that adds request ID to log records."""
+    
+    def filter(self, record: logging.LogRecord) -> bool:
+        """Add request_id attribute to log record."""
+        record.request_id = get_request_id()
+        return True
 
 
 def setup_logging(
@@ -25,7 +54,7 @@ def setup_logging(
         Configured logger instance.
     """
     log_format = logging.Formatter(
-        "%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+        "%(asctime)s | %(levelname)s | %(name)s | [%(request_id)s] | %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
     )
 
@@ -38,6 +67,7 @@ def setup_logging(
         )
         file_handler.setFormatter(log_format)
         file_handler.setLevel(level)
+        file_handler.addFilter(RequestIDFilter())
     except (PermissionError, OSError) as e:
         # Fallback to console-only logging if file logging fails
         print(f"Warning: Could not create log file {log_file}: {e}")
@@ -47,6 +77,7 @@ def setup_logging(
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setFormatter(log_format)
     console_handler.setLevel(level)
+    console_handler.addFilter(RequestIDFilter())
 
     # Configure app logger
     app_logger = logging.getLogger("app")
